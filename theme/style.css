@@ -70,6 +70,12 @@ article img {
   text-decoration: none;
 }
 
+.titlecard {
+  background: url(images/titlecard-bg.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 /* navigation */
 
 nav ul::before {
@@ -88,6 +94,7 @@ nav ul li + li::before {
   content: "| "; 
 }
 
+
 /* Scale paragraphs to screen size */
 
 @media screen and (max-width: 600px)
@@ -99,3 +106,4 @@ nav ul li + li::before {
     padding-right: 10px;
   }
 }
+
