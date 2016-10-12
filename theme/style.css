@@ -25,8 +25,30 @@ body {
   line-height: 1.5rem;
 }
 
-article p{
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cutive Mono';
+}
+
+section ul {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  list-style-position: inside;
+}
+
+section ul li {
+  margin-left: 2.5rem;
+}
+
+article p {
   text-indent: 2.5rem;
+}
+
+article header p {
+  padding: 0;
 }
 
 article p img {
@@ -123,7 +145,10 @@ namely YouTube embeds, which requires some hacky CSS
 
 @media screen and (max-width: 600px)
 {
-  article p, footer {
+  html, body {
+    font-size: 1rem;
+  }
+  article p, footer, section ul {
     width: auto;
     box-sizing: border-box;
     padding-left: 10px;
