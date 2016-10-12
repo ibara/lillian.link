@@ -1,0 +1,101 @@
+/*
+lillian_ theme
+lillian.link
+lily seabreeze
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-primary: #65FEE5;
+  --color-secondary: #93EDD4;;
+  --color-secondary-dark: #3CBAC8;
+  --color-compliment: #F9CB8F;
+  --color-compliment-dark: #F19181;
+}
+
+html,
+body {
+  text-align: center;
+  font-family: 'Cutive Mono';
+  font-size: 1.15rem;
+  line-height: 1.5rem;
+}
+
+article p{
+  text-indent: 2.5rem;
+}
+
+article p img {
+  margin-left: -2.5rem;
+}
+
+article p,
+footer {
+  display: block;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+footer {
+  font-size: 0.75rem;
+  text-align: center
+}
+
+article img {
+  width: 100%;
+}
+
+.margin-vertical {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.heading-asymmetrical {
+  margin-top: 2.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.subtitle {
+  font-weight: normal;
+}
+
+.link-active {
+  color: #000;
+  text-decoration: none;
+}
+
+/* navigation */
+
+nav ul::before {
+  content: '['
+}
+
+nav ul::after {
+  content: ']'
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li + li::before {
+  content: "| "; 
+}
+
+/* Scale paragraphs to screen size */
+
+@media screen and (max-width: 600px)
+{
+  article p, footer {
+    width: auto;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
