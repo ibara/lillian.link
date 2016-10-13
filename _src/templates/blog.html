@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% set active_page = "blog" %}
+{% block title %}Lily's Blog{% endblock %}
+{% block article_title %}Lily's Blog{% endblock %}
+{% block body %}
+  {% for post in posts %}
+    <article>
+      <header>
+        <h1><a href="{{ post.href }}">{{ post.title }}</a></h1>
+      </header>
+      <p>{{ post.summary }}</p>
+    </article>
+  {% endfor %}
+{% endblock %}

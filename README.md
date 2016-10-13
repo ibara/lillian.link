@@ -1,5 +1,3 @@
-# Seabreeze's One Page Portfolio
+# lillian.link
 
-http://lily-seabreeze.github.io/
-
-http://lily.seabreeze.pro/
+My all-encompassing website.

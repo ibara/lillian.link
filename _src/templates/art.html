@@ -1,52 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>art (lillian_)</title>
-  <meta charset="UTF-8">
-  <meta name=viewport content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
-  <link href="/theme/style.css" rel="stylesheet" type="text/css">
-  <link rel="icon" type="image/png" href="/theme/images/favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="/theme/images/favicon-16x16.png" sizes="16x16" />
-</head>
-<body>
-
-<header>
-  <h1 class="heading-asymmetrical">lillian_</h1>
-  <h2 class="subtitle">o! u found me</h2>
-</header>
-
-<nav class="margin-vertical">
-  <ul>
-  
-    <li>
-      <a href="index.html">homepage</a>
-    </li>
-  
-    <li>
-      <a href="http://lily.seabreeze.pro/">resum&eacute;</a>
-    </li>
-  
-    <li>
-      <a href="art.html" class="link-active">art</a>
-    </li>
-  
-    <li>
-      <a href="blog.html">blog</a>
-    </li>
-  
-  </ul>
-</nav>
-
-<article>
-  <header>
-    <h1 class="heading-asymmetrical">Lily's Art</h1>
-    
+{% extends "base.html" %}
+{% set active_page = "art" %}
+{% block title %}art{% endblock %}
+{% block article_title %}Lily's Art{% endblock %}
+{% block article_header %}
   <p>Art from the cosmos&mdash;ALIEN MIND PROJECTIONS of <a href="#tabletop-games">tabletop games</a>, <a href="#graphic-art">graphic art</a>, <a href="#computer-games">computer games</a>. Please also eyeball-consume <a href="http://lily.seabreeze.pro">Lily's resum&eacute;</a>, which has lots of neat software like <a href="http://staticfuzz.com">staticfuzz</a> and some backround into Lily's charity work.</p>
   <p class="titlecard"><img src="images/art/titlecard.png"></p>
+{% endblock %}
 
-  </header>
-  
+{% block body %}
   <section>
     <h2 class="heading-asymmetrical" id="computer-games">Computer Games</h2>
     <p>Lily has made a bunch of computer games, but here's what survived. Some of these items are incomplete or a "work in progress." You also may be interested in Lily's <a href="https://github.com/lily-seabreeze/sappho">Sappho game engine</a> and other computer-related game software on <a href="http://lily.seabreeze.pro">Lily's Resum&eacute;</a>.</p>
@@ -108,17 +69,4 @@
     <p><img src="images/art/self-portrait.png"></p>
   </section>
 
-
-</article>
-
-<footer class="margin-vertical">
-  <a href="https://twitter.com/lilyseabreeze">@LilySeabreeze on Twitter</a>.
-
-  <a href="https://github.com/lily-seabreeze">Lily's GitHub</a>.
-
-  <a href="https://en.lichess.org/@/Lily-Seabreeze">Challenge Lily to a game of chess on Lichess!</a>
-</footer>
-
-
-</body>
-</html>
+{% endblock %}
