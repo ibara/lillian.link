@@ -185,7 +185,7 @@ class Post(object):
 
 # Create the regular pages first
 for template_name in jinja_env.list_templates():
-    if template_name in ('base.html', Post.TEMPLATE):
+    if template_name in ('base.html', 'category-index.html', Post.TEMPLATE):
         continue
 
     template = jinja_env.get_template(template_name)
@@ -195,19 +195,36 @@ for template_name in jinja_env.list_templates():
 # Create the blog by first creating all the individual
 # posts, building an index of those posts..
 list_of_all_posts_unsorted = []
+categorized_posts = {}
 search_path = os.path.join(MARKDOWN_SOURCE, '**/*.md')
 for file_path in glob.iglob(search_path, recursive=True):
+    # Create the post object and render/output
     post = Post(file_path)
     with open(post.href, 'w') as f:
         f.write(post.render())
+
+    # File by category and add to list of all posts
     list_of_all_posts_unsorted.append(post)
+    if post.category not in categorized_posts:
+        categorized_posts[post.category] = [post]
+
+    else:
+        categorized_posts[post.category].append(post)
+
+# create the category indexes
+category_template = jinja_env.get_template('category-index.html')
+for category, posts in categorized_posts.items():
+    with open(os.path.join('blog', category, 'index.html'), 'w') as f:
+        f.write(category_template.render(category=category, posts=posts))
+
 # ... then sort said post list by their creation time
 sorted_list_of_all_posts = sorted(
     list_of_all_posts_unsorted,
-    key=lambda x: x.created_epoch
+    key=lambda x: x.created_epoch,
+    reverse=True,
 )
 
 # .. finally render the blog index
 template = jinja_env.get_template('blog.html')
 with open('blog.html', 'w') as f:
-    f.write(template.render(posts=sorted_list_of_all_posts))
+    f.write(template.render(posts=sorted_list_of_all_posts, categories=categorized_posts.keys()))

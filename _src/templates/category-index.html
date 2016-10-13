@@ -1,15 +1,7 @@
 {% extends "base.html" %}
 {% set active_page = "blog" %}
-{% block title %}Lily's Blog{% endblock %}
-{% block article_title %}Lily's Blog{% endblock %}
-{% block article_header %}
-  <p>
-    Categories:
-    {% for category in categories %}
-    <a href="/blog/{{ category }}">{{ category }}</a>
-    {% endfor %}
-  </p>
-{% endblock %}
+{% block title %}{{ category }} blog posts{% endblock %}
+{% block article_title %}{{ category }} blog posts{% endblock %}
 {% block body %}
   {% for post in posts %}
     <article>
@@ -17,7 +9,7 @@
         <h1><a href="/{{ post.href }}">{{ post.title }}</a></h1>
         <dl>
           <dt>Category</dt>
-          <dd><a href="/blog/{{ post.category }}">{{ post.category }}</a></dd>
+          <dd><a href="/blog/{{ post.category }}">{{ category }}</a></dd>
 
           <dt>Created</dt>
           <dd>{{ post.created }}</dt>
