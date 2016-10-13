@@ -13,9 +13,9 @@ what I wanted in a static site generator:
 Works exclusively in Python3.
 
 How it works:
-    Every file in `_src/templates/` that isn't `base.html` or
-    `blog-article.html` is a page that gets rendered to an
-    HTML file of the same name.
+    Every file in `_src/templates/` that isn't `base.html`,
+    `category-index.html', or `blog-article.html` is a page that gets
+    rendered to an HTML file of the same name.
 
     The `_src/markdown_blog/` directory is scanned for markdown files
     recursively (`*.md`). Metadata, such as creation and modified time,
