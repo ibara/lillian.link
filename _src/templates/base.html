@@ -11,46 +11,47 @@
 </head>
 <body>
 
-<header>
-  <h1 class="heading-asymmetrical">lillian_</h1>
-  <h2 class="subtitle">o! u found me</h2>
-</header>
+<div class="container">
+    <header>
+      <h1 class="heading-asymmetrical">lillian_</h1>
+      <h2 class="subtitle">o! u found me</h2>
+    </header>
 
-{% set navigation = [
-  ('index.html', 'homepage'),
-  ('http://lily.seabreeze.pro/', 'resum&eacute;'),
-  ('art.html', 'art'),
-  ('blog.html', 'blog'),
-] -%}
-<nav class="margin-vertical">
-  <ul>
-  {% for href, text in navigation %}
-    <li>
-      <a href="{{href}}"{% if active_page == text %} class="link-active"{% endif %}>{{ text }}</a>
-    </li>
-  {% endfor %}
-  </ul>
-</nav>
+    {% set navigation = [
+      ('index.html', 'homepage'),
+      ('http://lily.seabreeze.pro/', 'resum&eacute;'),
+      ('art.html', 'art'),
+      ('blog.html', 'blog'),
+    ] -%}
+    <nav class="margin-vertical">
+      <ul>
+      {% for href, text in navigation %}
+        <li>
+          <a href="{{href}}"{% if active_page == text %} class="link-active"{% endif %}>{{ text }}</a>
+        </li>
+      {% endfor %}
+      </ul>
+    </nav>
 
-<article>
-  <header>
-    <h1 class="heading-asymmetrical">{% block article_title %}{% endblock %}</h1>
-    {% block article_header %}{% endblock %}
-  </header>
-  {% block body %}{% endblock %}
-</article>
+    <article>
+      <header>
+        <h1 class="heading-asymmetrical">{% block article_title %}{% endblock %}</h1>
+        {% block article_header %}{% endblock %}
+      </header>
+      {% block body %}{% endblock %}
+    </article>
 
-<footer class="margin-vertical">
-  <a href="https://twitter.com/lilyseabreeze">@LilySeabreeze on Twitter</a>.
+    <footer class="margin-vertical">
+      <a href="https://twitter.com/lilyseabreeze">@LilySeabreeze on Twitter</a>.
 
-  <a href="https://github.com/lily-seabreeze">Lily's GitHub</a>.
+      <a href="https://github.com/lily-seabreeze">Lily's GitHub</a>.
 
-  <a href="https://en.lichess.org/@/Lily-Seabreeze">Challenge Lily to a game of chess on Lichess!</a>
+      <a href="https://en.lichess.org/@/Lily-Seabreeze">Challenge Lily to a game of chess on Lichess!</a>
 
-  <a href="https://github.com/lily-seabreeze/lillian.link">This site generated using Lily's "staticky.py."</a>
+      <a href="https://github.com/lily-seabreeze/lillian.link">This site generated using Lily's "staticky.py."</a>
 
-</footer>
-
+    </footer>
+</div>
 
 </body>
 </html>

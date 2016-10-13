@@ -29,10 +29,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Cutive Mono';
 }
 
-section ul {
+.container {
   width: 600px;
   margin-left: auto;
   margin-right: auto;
+}
+
+section ul {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   text-align: left;
@@ -58,7 +61,6 @@ article p img {
 article p,
 footer {
   display: block;
-  width: 600px;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
@@ -156,6 +158,27 @@ namely YouTube embeds, which requires some hacky CSS
   height:100%;
 }
 
+/* blog meta */
+
+dl {
+  text-align: left;
+  font-size: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+dt {
+  display: inline-block;
+  font-weight: bold;
+}
+
+dt::before {
+  content: '\2022'
+}
+
+dd {
+  display: inline-block;
+}
+
 /* Scale paragraphs to screen size */
 
 @media screen and (max-width: 600px)
@@ -163,7 +186,7 @@ namely YouTube embeds, which requires some hacky CSS
   html, body {
     font-size: 1rem;
   }
-  article p, footer, section ul {
+  .container {
     width: auto;
     box-sizing: border-box;
     padding-left: 10px;

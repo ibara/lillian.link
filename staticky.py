@@ -94,7 +94,7 @@ class Post(object):
         first_paragraph = soup.find('p').get_text()
 
         if len(first_paragraph) > cls.SUMMARY_LENGTH:
-            return first_paragraph[:self.SUMMARY_LENGTH] + '&hellip;'
+            return first_paragraph[:cls.SUMMARY_LENGTH] + '&hellip;'
         else:
             return first_paragraph
 
