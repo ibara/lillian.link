@@ -39,7 +39,9 @@ class Post(object):
             paragraph of the content.
         content (BeautifulSoup): --
         modified (str): --
+        modified_epoch (str): --
         created (str): --
+        created_epoch (int): --
         title (str): The first <h1> tag once the markdown was rendered
             to HTML.
 
@@ -54,8 +56,14 @@ class Post(object):
         self.content, self.title = self.get_html(file_path)
         self.summary = self.summarize(self.content)
         self.href = self.get_href(self.category, file_path)
-        self.modified_date = self.get_date(file_path, os.path.getmtime)
-        self.created_date = self.get_date(file_path, os.path.getctime)
+        self.modified, self.modified_epoch = self.get_date(
+            file_path,
+            os.path.getmtime
+        )
+        self.created, self.created_epoch = self.get_date(
+            file_path,
+            os.path.getctime
+        )
 
         if not os.path.exists('blog/' + self.category):
             os.makedirs('blog/' + self.category)
@@ -122,10 +130,11 @@ class Post(object):
         except OSError:
             epoch_time = 0
 
-        return time.strftime(
+        string_time = time.strftime(
             "%a, %d %b %Y %H:%M:%S +0000",
             time.gmtime(epoch_time)
         )
+        return string_time, epoch_time
 
     @staticmethod
     def get_html(file_path):
@@ -164,8 +173,12 @@ for file_path in glob.iglob('_src/markdown_blog/**/*.md', recursive=True):
     posts_for_index_unsorted.append(post)
 
 # TODO: .. sort the blog posts by created date
+posts_sorted = sorted(
+    posts_for_index_unsorted,
+    key=lambda x: x.created_epoch
+)
 
 # .. finally render the blog index
 template = jinja_env.get_template('blog.html')
 with open('blog.html', 'w') as f:
-    f.write(template.render(posts=posts_for_index_unsorted))
+    f.write(template.render(posts=posts_sorted))

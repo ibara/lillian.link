@@ -3,5 +3,15 @@
 {% block title %}{{ post.title }}{% endblock %}
 {% block article_title %}{{ post.title }}{% endblock %}
 {% block body %}
+  <dl>
+    <dt>Category</dt>
+    <dd>{{ post.category }}</dd>
+
+    <dt>Created</dt>
+    <dd>{{ post.created }}</dt>
+  
+    <dt>Modified</dt>
+    <dd>{{ post.modified }}</dd>
+  </dl>
   {{ post.content }}
 {% endblock %}
