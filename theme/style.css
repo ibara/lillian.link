@@ -101,7 +101,7 @@ article img {
 /* navigation */
 
 nav ul::before {
-  content: '['
+  content: '[ '
 }
 
 nav ul::after {
