@@ -1,9 +1,39 @@
-"""Quick-and-dirty static site generator using
-jinja & markdown for lillian.link.
+"""Quick-and-dirty static site generator for Python 3 (exclusively)
+using jinja & markdown.
 
-I really just made this for fun.
+This script generates the lillian.link static website from `_src`.
+
+I really just made this for fun and I knew exactly
+what I wanted in a static site generator:
+
+  * `jinja2` for templates and pages (`_src/templates/`)
+  * `markdown` for blog posts (`_src/markdown_blog/`), which can be
+    categorized simply by organizing the markdown files into directories
 
 Works exclusively in Python3.
+
+How it works:
+    Every file in `_src/templates/` that isn't `base.html` or
+    `blog-article.html` is a page that gets rendered to an
+    HTML file of the same name.
+
+    The `_src/markdown_blog/` directory is scanned for markdown files
+    recursively (`*.md`). Metadata, such as creation and modified time,
+    are obtained through the file's metadata itself. Files in the
+    `_src/markdown_blog/` directory may be put into directories, for
+    example `_src/markdown_blog/rants/i-really-love-halloween.md` would
+    belong to the `rants` category, and would be rendered to
+    `blog/rants/i-really-love-halloween.html`.
+
+    Just modify some files in `_src` and then run this script!
+
+      $ python staticky.py
+
+    If you want to test the site, just do this:
+
+        $ python -m http.server 8000
+
+    ... then open http://localhost/index.html in web browser.
 
 """
 
@@ -17,6 +47,9 @@ from bs4 import BeautifulSoup
 import markdown
 
 
+MARKDOWN_SOURCE = os.path.join('_src', 'markdown_blog')
+
+
 jinja_env = jinja2.Environment(
     loader=jinja2.PackageLoader('_src', 'templates')
 )
@@ -26,8 +59,9 @@ class Post(object):
     """A blog post; make templating much easier.
 
     Constants:
-        SUMMARY_LENGTH (int): --
-        MARKDOWN_SOURCE (str): --
+        SUMMARY_CHARACTER_LIMIT (int): --
+        TEMPLATE (str): jinja2 template to pull from the jinja2
+            environment. This temple is used to render the post.
 
     Attributes:
         href (str): Relative path to this article (html). Usable for
@@ -47,9 +81,8 @@ class Post(object):
 
     """
 
-    SUMMARY_LENGTH = 100
-    MARKDOWN_SOURCE = '_src/markdown_blog/'
-    POST_TEMPLATE = 'blog-article.html'
+    SUMMARY_CHARACTER_LIMIT = 100
+    TEMPLATE = 'blog-article.html'
 
     def __init__(self, file_path):
         self.category = self.get_category(file_path)
@@ -77,9 +110,8 @@ class Post(object):
 
         """
 
-        category = file_path.replace(
-            cls.MARKDOWN_SOURCE, '', 1
-        ).split('/', 1)[0]
+        directory_path = os.path.dirname(path_to_file)
+        category = os.path.basename(directory_path)
         return category
 
     @classmethod
@@ -93,8 +125,8 @@ class Post(object):
 
         first_paragraph = soup.find('p').get_text()
 
-        if len(first_paragraph) > cls.SUMMARY_LENGTH:
-            return first_paragraph[:cls.SUMMARY_LENGTH] + '&hellip;'
+        if len(first_paragraph) > cls.SUMMARY_CHARACTER_LIMIT:
+            return first_paragraph[:cls.SUMMARY_CHARACTER_LIMIT] + '&hellip;'
         else:
             return first_paragraph
 
@@ -147,37 +179,35 @@ class Post(object):
         return soup, title
 
     def render(self):
-        post_template = jinja_env.get_template(self.POST_TEMPLATE)
+        post_template = jinja_env.get_template(self.TEMPLATE)
         return post_template.render(post=self)
 
 
 # Create the regular pages first
 for template_name in jinja_env.list_templates():
-
-    if template_name in ('base.html', 'blog-article.html'):
+    if template_name in ('base.html', Post.TEMPLATE):
         continue
 
     template = jinja_env.get_template(template_name)
-
     with open(template_name, 'w') as f:
         f.write(template.render())
 
-# Create the blog
-posts_for_index_unsorted = []
-
-for file_path in glob.iglob('_src/markdown_blog/**/*.md', recursive=True):
+# Create the blog by first creating all the individual
+# posts, building an index of those posts..
+list_of_all_posts_unsorted = []
+search_path = os.path.join(MARKDOWN_SOURCE, '**/*.md')
+for file_path in glob.iglob(search_path, recursive=True):
     post = Post(file_path)
     with open(post.href, 'w') as f:
         f.write(post.render())
-    posts_for_index_unsorted.append(post)
-
-# TODO: .. sort the blog posts by created date
-posts_sorted = sorted(
-    posts_for_index_unsorted,
+    list_of_all_posts_unsorted.append(post)
+# ... then sort said post list by their creation time
+sorted_list_of_all_posts = sorted(
+    list_of_all_posts_unsorted,
     key=lambda x: x.created_epoch
 )
 
 # .. finally render the blog index
 template = jinja_env.get_template('blog.html')
 with open('blog.html', 'w') as f:
-    f.write(template.render(posts=posts_sorted))
+    f.write(template.render(posts=sorted_list_of_all_posts))
