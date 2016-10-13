@@ -143,8 +143,7 @@ class Post(object):
             html_string = markdown.markdown(f.read())
 
         soup = BeautifulSoup(html_string, 'html.parser')
-
-        title = soup.find('h1').get_text()
+        title = soup.h1.extract()
         return soup, title
 
     def render(self):
