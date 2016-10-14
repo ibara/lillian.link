@@ -37,6 +37,7 @@ How it works:
 
 """
 
+import sqlite3
 import time
 import os
 import glob
@@ -48,7 +49,19 @@ import markdown
 
 
 MARKDOWN_SOURCE = os.path.join('_src', 'markdown_blog')
+POST_TIME_DB = '_post-time.db'
 
+
+db_connection = sqlite3.connect(POST_TIME_DB)
+db_cursor = db_connection.cursor()
+db_cursor.execute('''
+    CREATE TABLE IF NOT EXISTS times (
+        file_path STRING PRIMARY KEY,
+        created INTEGER,
+        modified INTEGER
+    )
+''')
+db_connection.commit()
 
 jinja_env = jinja2.Environment(
     loader=jinja2.PackageLoader('_src', 'templates')
@@ -89,14 +102,8 @@ class Post(object):
         self.content, self.title = self.get_html(file_path)
         self.summary = self.summarize(self.content)
         self.href = self.get_href(self.category, file_path)
-        self.modified, self.modified_epoch = self.get_date(
-            file_path,
-            os.path.getmtime
-        )
-        self.created, self.created_epoch = self.get_date(
-            file_path,
-            os.path.getctime
-        )
+        self.modified, self.modified_epoch = self.get_modified(file_path)
+        self.created, self.created_epoch = self.get_created(file_path)
 
         if not os.path.exists('blog/' + self.category):
             os.makedirs('blog/' + self.category)
@@ -149,18 +156,87 @@ class Post(object):
         )
 
     @staticmethod
-    def get_date(file_path, getmtime_or_getctime):
-        """
+    def get_created(file_path):
+        # first we see if there's a corresponding time in the DB already
+        db_cursor.execute(
+            'SELECT created FROM times WHERE file_path=?',
+            (file_path,),
+        )
+        query_results = db_cursor.fetchone()
+        disk_created_epoch = os.path.getctime(file_path)
 
-        getmtime_or_getctime (func): either os.path.getmtime,
-            or os.path.getctime.
+        if not query_results:
+            # When we tried to find times for this file path in the
+            # database, there was nothing! Thus we know we can validly
+            # create a record in the DB with the disk epoch.
+            epoch_time = disk_epoch_time
+            db_cursor.execute(
+                '''
+                INSERT INTO times (file_path, created) 
+                VALUES (?, ?)
+                ''',
+                (file_path, epoch_time),
+            )
+            db_connection.commit()
+        elif query_results[0] is None:
+            # There is a record in the database corresponding to the
+            # file path, and it lacks a created epoch, meaning we already
+            # created the modified epoch in the DB and we just need to
+            # update that record
+            epoch_time = disk_created_epoch
+            db_cursor.execute(
+                '''
+                UPDATE times SET created = ? WHERE file_path = ?
+                ''',
+                (epoch_time, file_path),
+            )
+            db_connection.commit()
+        else:
+            epoch_time = query_results[0]
 
-        """
+        string_time = time.strftime(
+            "%a, %d %b %Y %H:%M:%S +0000",
+            time.gmtime(epoch_time)
+        )
+        return string_time, epoch_time
 
-        try:
-            epoch_time = getmtime_or_getctime(file_path)
-        except OSError:
-            epoch_time = 0
+    @staticmethod
+    def get_modified(file_path):
+        db_cursor.execute(
+            'SELECT modified FROM times WHERE file_path=?',
+            (file_path,),
+        )
+        epoch_time_from_db = db_cursor.fetchone()
+        epoch_time_from_disk = os.path.getctime(file_path)
+    
+        # We know this file is modified if there is no record
+        # corresponding to file_path, OR if these conditions are met...
+        #
+        #  * disk time newer than db time
+        #  * disk time modified is different than disk time created
+        if not epoch_time_from_db:
+            epoch_time = epoch_time_from_disk
+            db_cursor.execute(
+                '''
+                INSERT INTO times (file_path, modified) 
+                VALUES (?, ?)
+                ''',
+                (file_path, epoch_time),
+            )
+            db_connection.commit()
+        elif (epoch_time_from_disk > epoch_time_from_db[0]
+              and (epoch_time_from_disk != self.get_created(file_path)[1])):
+            epoch_time = epoch_time_from_disk
+            # we need to update modified time
+            db_cursor.execute(
+                '''
+                UPDATE times SET modified = ? WHERE file_path = ?
+                ''',
+                (epoch_time, file_path),
+            )
+            db_connection.commit()
+        else:
+            epoch_time = epoch_time_from_db[0]
 
         string_time = time.strftime(
             "%a, %d %b %Y %H:%M:%S +0000",
