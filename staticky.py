@@ -215,7 +215,7 @@ class Post(object):
         # first we see if there's a corresponding time in the DB already
         db = FileTimeDB()
         db_row = db.get(file_path)
-        disk_epoch_time = os.path.getctime(file_path)
+        disk_epoch_time = int(os.path.getctime(file_path))
 
         if db_row is None:
             # Nothing in database matching file path, so let's insert
