@@ -234,8 +234,7 @@ class Post(object):
         )
         return string_time, epoch_time
 
-    @staticmethod
-    def get_modified(file_path):
+    def get_modified(self, file_path):
         db = FileTimeDB()
         row = db.get(file_path)
         epoch_time_from_disk = os.path.getmtime(file_path)
@@ -249,14 +248,15 @@ class Post(object):
             epoch_time = epoch_time_from_disk
             db.modified_insert(file_path, epoch_time_from_disk)
         elif (epoch_time_from_disk > row['modified']
-              and (epoch_time_from_disk != self.get_created(file_path)['created'])):
-            db.modified_update(file_path, epoch_time_from_disk)
+              and (epoch_time_from_disk != self.get_created(file_path)[1])):
+            epoch_time = epoch_time_from_disk
+            db.modified_update(file_path, epoch_time)
         else:
             epoch_time = row['modified']
 
         string_time = time.strftime(
             "%a, %d %b %Y %H:%M:%S +0000",
-            time.gmtime(epoch_time)
+            time.gmtime(epoch_time),
         )
         return string_time, epoch_time
 
