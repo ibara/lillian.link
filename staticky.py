@@ -237,19 +237,20 @@ class Post(object):
     def get_modified(self, file_path):
         db = FileTimeDB()
         row = db.get(file_path)
-        epoch_time_from_disk = os.path.getmtime(file_path)
+        epoch_time_from_disk = int(os.path.getmtime(file_path))
     
-        # We know this file is modified if there is no record
-        # corresponding to file_path, OR if these conditions are met...
-        #
-        #  * disk time newer than db time
-        #  * disk time modified is different than disk time created
-        # what if missing row modified?
         if row is None:
             epoch_time = epoch_time_from_disk
             db.modified_insert(file_path, epoch_time_from_disk)
+        # Update the corresponding row in the DB with the new time if:
+        #   * row `modified` is None
+        #   * disk time newer than row `modified`, AND the disk time is different from
+        #     disk modified. If the disk time and modified were the same, that'd imply
+        #     the file has just been cloned, we can tell that because we already have
+        #     a row in the db for this file, thus it cannot be new, and thus we would
+        #     not want to update the modified time.
         elif ((row['modified'] is None) or (epoch_time_from_disk > row['modified']
-               and (epoch_time_from_disk != self.get_created(file_path)[1]))):
+               and (epoch_time_from_disk != int(os.path.getmtime(file_path))))):
             epoch_time = epoch_time_from_disk
             db.modified_update(file_path, epoch_time)
         else:
