@@ -244,11 +244,12 @@ class Post(object):
         #
         #  * disk time newer than db time
         #  * disk time modified is different than disk time created
+        # what if missing row modified?
         if row is None:
             epoch_time = epoch_time_from_disk
             db.modified_insert(file_path, epoch_time_from_disk)
-        elif (epoch_time_from_disk > row['modified']
-              and (epoch_time_from_disk != self.get_created(file_path)[1])):
+        elif ((row['modified'] is None) or (epoch_time_from_disk > row['modified']
+               and (epoch_time_from_disk != self.get_created(file_path)[1]))):
             epoch_time = epoch_time_from_disk
             db.modified_update(file_path, epoch_time)
         else:
