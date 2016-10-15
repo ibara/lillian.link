@@ -6,21 +6,37 @@
   --color-compliment-dark: #F19181;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html,
 body {
   color: #fff !important;
   text-align: center;
   background-color: #000;
-  background-image: url(images/chat-shrine-background.png);
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-family: 'Codystar';
+  background-image: url(images/chat-shrine-true-background.png);
   background-attachment: fixed;
   background-size: cover;
-  font-size: 1.5rem;
-  font-family: 'Codystar';
+}
+
+.pseudo-background {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(images/chat-shrine-background.png);
+  background-size: cover;
 }
 
 /* needs frame */
 .chat-shrine-container {
   background-image: url(images/chat-shrine-frame.png);
+  position: relative;
+  z-index: 0;
+
   width: 600px;
   height: 450px;
 
@@ -28,10 +44,20 @@ body {
   padding: 40px;
 
   box-shadow: 10px 10px 10px #8de1d3;
+
+}
+
+.chat-shrine-idol {
+  opacity: 0.8;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
 }
 
 .chat-shrine-container::after {
   /* gif loop of static to overlay */
+  z-index: 8888888;
   content: ' ';
   display: block;
   background-size: cover;
@@ -63,6 +89,19 @@ ul li {
   display: inline-block;
 }
 
+p::before {
+  content: ' ';
+  display: block;
+}
+
 p {
   background: rgba(0, 0, 0, 0.8);
+  position: relative;
+  z-index: 1;
+  display: block;
+  padding: 3rem 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5rem;
+  width: 600px;
 }
