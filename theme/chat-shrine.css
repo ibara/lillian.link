@@ -79,10 +79,9 @@ body {
   z-index: 0;
 }
 
-.chat-shrine-container::after {
+.chat-shrine-static-overlay {
   /* gif loop of static to overlay */
-  z-index: 8888888;
-  content: ' ';
+  z-index: 99;
   display: block;
   background-size: cover;
   pointer-events: none;
@@ -92,6 +91,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  overflow: auto;
   opacity: 0.1;
 }
 
