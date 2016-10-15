@@ -1,0 +1,66 @@
+:root {
+  --color-primary: #65FEE5;
+  --color-secondary: #93EDD4;;
+  --color-secondary-dark: #3CBAC8;
+  --color-compliment: #F9CB8F;
+  --color-compliment-dark: #F19181;
+}
+
+html,
+body {
+  background-color: #000;
+  background-image: url(images/chat-shrine-background.png);
+  background-attachment: fixed;
+  background-size: cover;
+  font-size: 1.5rem;
+  font-family: 'Codystar';
+}
+
+/* needs frame */
+.chat-shrine-container {
+  background-image: url(images/chat-shrine-frame.png);
+  width: 600px;
+  height: 450px;
+
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+  padding: 40px;
+}
+
+.chat-shrine-container::after {
+  /* gif loop of static to overlay */
+  content: ' ';
+  display: block;
+  background-size: cover;
+  pointer-events: none;
+  background-image: url(images/chat-shrine-overlay.gif);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.1;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  display: block;
+  padding: 0;
+  width: 680px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+ul a {
+  color: #fff !important;
+}
+
+ul li {
+  display: inline-block;
+}
