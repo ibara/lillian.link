@@ -24,6 +24,28 @@ body {
   background-size: cover;
 }
 
+.warning {
+  background: #fff;
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  min-height: 100%;
+}
+
+.warning p {
+  font-family: serif;
+  background: #fff;
+  color: #000;
+}
+
+#everything, #everything *  {
+  display: none;
+}
+
+#everything:target, #everything:target * {
+  display: block;
+}
+
 .pseudo-background {
   min-height: 100vh;
   width: 100%;
