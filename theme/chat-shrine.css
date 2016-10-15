@@ -8,6 +8,8 @@
 
 html,
 body {
+  color: #fff !important;
+  text-align: center;
   background-color: #000;
   background-image: url(images/chat-shrine-background.png);
   background-attachment: fixed;
@@ -22,14 +24,10 @@ body {
   width: 600px;
   height: 450px;
 
-  position: absolute;
-  top:0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-
   margin: auto;
   padding: 40px;
+
+  box-shadow: 10px 10px 10px #8de1d3;
 }
 
 .chat-shrine-container::after {
@@ -63,4 +61,8 @@ ul a {
 
 ul li {
   display: inline-block;
+}
+
+p {
+  background: rgba(0, 0, 0, 0.8);
 }
