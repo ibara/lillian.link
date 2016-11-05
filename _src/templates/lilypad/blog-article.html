@@ -6,12 +6,8 @@
   <dl>
     <dt>Category</dt>
     <dd><a href="/blog/{{ post.category }}">{{ post.category }}</a></dd>
-
-    <dt>Created</dt>
-    <dd>{{ post.created }}</dt>
-  
-    <dt>Modified</dt>
-    <dd>{{ post.modified }}</dd>
+    <dt>Timestamp</dt>
+    <dd>{{ post.timestamp }}</dd>
   </dl>
   {{ post.content }}
 {% endblock %}
