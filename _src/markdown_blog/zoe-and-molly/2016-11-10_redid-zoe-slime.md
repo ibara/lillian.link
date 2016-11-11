@@ -14,6 +14,8 @@ simple. I've just started learning how to use HamsterSpeak to write "plotscripts
 
 Things I'm really unhappy about and seek to resolve:
 
+  * Redo removable vent, right now it's just a grey bar
+  * Slime zoe eventually gets a skeleton to have a more humanoid form maybe?
   * Another enemy for this area, a big slime that divides into smaller chunks
     as you kill it, but if you use slime on it, it gets bigger
   * Really need to balance the stats better
