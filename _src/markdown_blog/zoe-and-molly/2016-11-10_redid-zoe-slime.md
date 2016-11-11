@@ -7,10 +7,15 @@ based off some dreams I had a while back (see the end of this blog post).
 You can totally download and play, or modify the source of the game, it's
 available, nightlies and all, on the
 <a href="https://github.com/lily-seabreeze/zoe-and-molly">Zoey and Molly
-on GitHub</a>.
+on GitHub</a>. This game was created with <a href="http://rpg.hamsterrepublic.com/ohrrpgce/Main_Page">OHRRPGCE (Our Hamster Republic RPG Creation Engine)</a>,
+which I love and recommend you checkout,
+it doesn't require any technical know-how, kids can pick it up, it's very
+simple. I've just started learning how to use HamsterSpeak to write "plotscripts."
 
 Things I'm really unhappy about and seek to resolve:
 
+  * Another enemy for this area, a big slime that divides into smaller chunks
+    as you kill it, but if you use slime on it, it gets bigger
   * Really need to balance the stats better
   * Not completely terrible slime ball attack animation
   * Better battle sprites for battle? This isn't a very high priority for me yet
