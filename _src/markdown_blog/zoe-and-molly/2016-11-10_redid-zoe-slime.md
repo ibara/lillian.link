@@ -4,6 +4,11 @@ I wanted to show off what I have so far for Zoe and Molly, as I feel
 like I'm getting close to the first area finished. Zoey and Molly is
 based off some dreams I had a while back (see the end of this blog post).
 
+You can totally download and play, or modify the source of the game, it's
+available, nightlies and all, on the
+<a href="https://github.com/lily-seabreeze/zoe-and-molly">Zoey and Molly
+on GitHub</a>.
+
 Things I'm really unhappy about and seek to resolve:
 
   * Really need to balance the stats better
