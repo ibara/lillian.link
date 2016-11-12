@@ -14,6 +14,7 @@ simple. I've just started learning how to use HamsterSpeak to write "plotscripts
 
 Things I'm really unhappy about and seek to resolve:
 
+  * Whenever slime attacks slime it gets half damage *and* it heals in some way?
   * Redo removable vent, right now it's just a grey bar
   * Slime zoe eventually gets a skeleton to have a more humanoid form maybe?
   * Another enemy for this area, a big slime that divides into smaller chunks
