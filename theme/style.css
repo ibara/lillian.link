@@ -35,6 +35,21 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: auto;
 }
 
+blockquote {
+  margin-left: 2.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+blockquote:before {
+  content: open-quote;
+  font-size: 4em;
+  position: absolute;
+  margin-left: -2rem;
+  margin-bottom: -2rem;
+}
+
 article ul {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
