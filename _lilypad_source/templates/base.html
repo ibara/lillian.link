@@ -21,14 +21,14 @@
       ('/index.html', 'home'),
       ('http://lily.seabreeze.pro/', 'resum&eacute;'),
       ('/art.html', 'art'),
-      ('/blog.html', 'blog'),
+      ('/blog', 'blog'),
       ('/chat-shrine.html', 'chat'),
     ] -%}
     <nav class="margin-vertical">
       <ul>
       {% for href, text in navigation %}
         <li>
-          <a href="{{href}}"{% if active_page == text %} class="link-active"{% endif %}>{{ text }}</a>
+          <a href="{{href}}"{% if active[0] == text %} class="link-active"{% endif %}>{{ text }}</a>
         </li>
       {% endfor %}
       </ul>
