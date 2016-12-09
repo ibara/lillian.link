@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Busy Building Sappho & Shogi (lillian_)</title>
+  <meta charset="UTF-8">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+  <link href="/theme/style.css" rel="stylesheet" type="text/css">
+  <link rel="icon" type="image/png" href="/theme/images/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="/theme/images/favicon-16x16.png" sizes="16x16" />
+</head>
+<body>
+
+<div class="container">
+    <header>
+      <h1 class="heading-asymmetrical">lillian_</h1>
+      <h2 class="subtitle">o! u found me</h2>
+    </header>
+
+    <nav class="margin-vertical">
+      <ul>
+      
+        <li>
+          <a href="/index.html">home</a>
+        </li>
+      
+        <li>
+          <a href="http://lily.seabreeze.pro/">resum&eacute;</a>
+        </li>
+      
+        <li>
+          <a href="/art.html">art</a>
+        </li>
+      
+        <li>
+          <a href="/blog" class="link-active">blog</a>
+        </li>
+      
+        <li>
+          <a href="/chat-shrine.html">chat</a>
+        </li>
+      
+      </ul>
+    </nav>
+
+    <article>
+      <header>
+        <h1 class="heading-asymmetrical">Busy Building Sappho & Shogi</h1>
+        
+      </header>
+      
+  <dl>
+    <dt>Category</dt>
+    <dd><a href="/blog/development">development</a></dd>
+    <dt>Timestamp</dt>
+    <dd>Thu, 08 Dec 2016</dd>
+  </dl>
+  
+<p>I've been keeping busy working on a Spatial Partition system in Sappho, my 2D game
+engine. Also, I've been talking about/making plans for implementing web-based Shogi.</p>
+<h2>Sappho: Spatial Partitions</h2>
+<p>I'm going to explain how I've implemented Spatial Partitions in Sappho (in an experimental
+branch; see <a href="https://github.com/lily-seabreeze/sappho/pull/105">PR #105</a>). Spatial partitions will do the following things for the end
+developer:</p>
+<ul>
+<li>Substantially increase the efficiency of collision checks, especially in bullet hells,
+    any game that uses a lot of collision checks</li>
+<li>Update sections of a map/screen's physics based on "locality"</li>
+<li>Peform actions on objects based on locality, in general</li>
+</ul>
+<p>Note that this PR/branch is still experimental. I'm working on updating the demo to use it... I should
+probably clean up the demo in general.</p>
+<h2>Shogi: Drafting Ideas, Research</h2>
+<p>I've been doing my research on how I'd implement a web-based Shogi game. I'm really
+unhappy with the options available now, so I aim to develop a simple multiplayer
+Shogi. Currently thinking about websockets, Python, flask-restful...</p>
+<p>I'll be doing this with a friend, who's gonna do the frontend.</p>
+<p>Luckily for me there's <a href="http://pypi.python.org/pypi/python-shogi">the <code>python-shogi</code> package on Pypi</a>,
+which handles all of the pure Shogi logic.</p>
+
+    </article>
+
+    <footer class="margin-vertical">
+      <a href="https://twitter.com/lilyseabreeze">@LilySeabreeze on Twitter</a>.
+
+      <a href="https://patreon.com/lilyseabreeze">Become a Patron ($)</a>.
+
+      <a href="https://github.com/lily-seabreeze">Lily's GitHub</a>.
+
+      <a href="https://en.lichess.org/@/Lily-Seabreeze">Challenge Lily to a game of chess on Lichess!</a>
+
+      <a href="https://github.com/lily-seabreeze/lillian.link">This website is on GitHub!</a>
+
+      <a href="https://github.com/lily-seabreeze/lilypad">This site generated using Lily's "lilypad."</a>
+
+    </footer>
+</div>
+
+</body>
+</html>
