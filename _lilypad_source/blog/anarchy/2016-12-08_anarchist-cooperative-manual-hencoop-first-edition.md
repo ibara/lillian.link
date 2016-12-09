@@ -5,9 +5,11 @@ I have been experimenting with anarchist cooperative structures ever since I fou
 of challenges along the way, namely efficiency and organizational clarity. I hope from
 this manual you can avoid many of the hurdles I've encountered.
 
-[Anarchist Cooperative Manual (??? Edition on Google Docs)](https://docs.google.com/document/d/1c4MC0se1ZEo7U-sVYCyS9JDbQLPJ9dJsIa-pMwZgSxY/edit?usp=sharing)
+  * [Anarchist Cooperative Manual (??? Edition on Google Docs)](https://docs.google.com/document/d/1c4MC0se1ZEo7U-sVYCyS9JDbQLPJ9dJsIa-pMwZgSxY/edit?usp=sharing)
+  * [Anarchist Cooperative Manual (First Edition) PDF download](anarchist-cooperative-manual-first-ed.pdf)
 
-[Anarchist Cooperative Manual (First Edition) PDF download](anarchist-cooperative-manual-first-ed.pdf)
+I'll try to keep this blog post up-to-date, routinely updating it with more complete
+information, at least until the new edition is published.
 
 ## Challenges
 
