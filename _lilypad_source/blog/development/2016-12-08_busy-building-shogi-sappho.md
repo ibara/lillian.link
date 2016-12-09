@@ -3,6 +3,10 @@
 I've been keeping busy working on a Spatial Partition system in Sappho, my 2D game
 engine. Also, I've been talking about/making plans for implementing web-based Shogi.
 
+Also, I've been trying to read through "Haskell Programming: From First Principles"
+by Christopher Allen and Julie Moronuki, "pure functional programming without fear
+or frustration." I'm going through the lambda calculus parts.
+
 ## Sappho: Spatial Partitions
 
 I'm going to explain how I've implemented Spatial Partitions in Sappho (in an experimental
