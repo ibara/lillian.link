@@ -129,7 +129,7 @@ something I have not always been good at.
 A consistent failure I've seen and made was an unpreparedness and thus inability to handle interpersonal
 conflict. Without a robust system for mediating such incidents, conflict has high potential to tear the
 cooperative apart. It is unrealistic to imagine the personal and official to be separate realms, as they
-intermingle, whereas one completely affects the other. Members are the synecdoche of operations, of the
+intermingle, where one completely affects the other. Members are the synecdoche of operations, of the
 cooperative at large, and as such it is a mutual relationship between emotion and official business.
 To put it differently, the members are representative of the cooperative as a whole, and that the cooperative
 itself is representative of its members; the way you operate as a group is a bidirectional relationship. For
