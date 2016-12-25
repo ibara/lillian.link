@@ -133,7 +133,8 @@ intermingle, whereas one completely affects the other. Members are the synecdoch
 cooperative at large, and as such it is a mutual relationship between emotion and official business.
 To put it differently, the members are representative of the cooperative as a whole, and that the cooperative
 itself is representative of its members; the way you operate as a group is a bidirectional relationship. For
-example, you may find group activities effective providers of group cohesion, or that success as a
+example, you may find group activities that involve members interacting with one another on an individual basis (as
+with a chess club) effective providers of group cohesion, or that success as a
 cooperative imparts a comradery among its members, who own that success, "We did this." Humans are humans,
 and humans need very special care and handling, it's important that the cooperative reflects this.
 
