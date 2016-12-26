@@ -57,7 +57,7 @@ our species' success.
 
 An organizational model which is both governed and owned by its members is an anarchy. That
 is, I choose to interpret anarchy as participation of the people composing government authority,
-explicitly in omission of reprentatives. Thus, every member has equal control (governence) and
+explicitly in omission of reprentatives. Thus, every member has equal control (governance) and
 property (revenue, assets, etc.), together making decisions as "the cooperative," a strict set
 of bylaws preventing any particular member from arbitrarily deciding on behalf of the membership as
 a whole. Anarchy has a history of being utilized by marginalized peoples, e.g, anarcha-feminism,
@@ -144,7 +144,7 @@ There's an inherent power or authority in any organization, as Jo Freeman explai
 Tyranny of Structurelessness," and that it is important to make those powers accountable and transparent.
 There are many ways in which I failed to actually distribute ownership and control, so I often acted as
 a clandestine authority. I also failed to constantly incorporate everyone's input at any and every turn,
-which is so essential to accomplish member ownership and control, and for them to recognize their governence and
+which is so essential to accomplish member ownership and control, and for them to recognize their governance and
 property in the cooperative, even if it can be slower at times. It always starts slow, and that's ok.
 
 A lack of goals, starting a group without a concrete mission and set of goals creates an indefinite amount
@@ -156,7 +156,7 @@ decided upon, but there was no action done to execute it; it is crucial that all
 
 There are simpler problems with an anarchist cooperative as well, there's a difficulty with sharing resources among
 members, especially members-only materials (manuals, meeting minutes, calendar, etc.), time management during meetings,
-legally distributing ownership/property/governence, etc. Often it boils down to ownership, such as, who ultimately
+legally distributing ownership/property/governance, etc. Often it boils down to ownership, such as, who ultimately
 controls the...
 
   * ... calendar?
