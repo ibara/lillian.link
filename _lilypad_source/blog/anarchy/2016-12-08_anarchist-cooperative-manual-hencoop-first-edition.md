@@ -22,12 +22,13 @@ my proposal for an anarchist cooperative model for generative justice, based on 
 
 As a model for marginalized peoples' self-empowerment, consensus-based anarchist
 cooperatives put both organizational ownership and governance in the hands of those
-marginalized peoples. Ultimately, such models as aformentioned allow every member to
+marginalized peoples. Ultimately, consensus-based anarchist cooperatives allow every member to
 incorporate their voice into all decisions while receiving just compensation and property,
 which marginalized people are often cheated out of, or restricted from.
 
-This Anarchist Cooperative Model hopes to offer both beneficial and explicit instruction on
-implementing consensus-based anarchist cooperatives in order to empower marginalized people.
+This article and the Anarchist Cooperative Manual provided herein hopes to offer both
+beneficial, explicit, and nuanced instruction on implementing consensus-based anarchist
+cooperatives for the purpose of empowering marginalized people.
 
 Anarchy, at least the way I find useful thinking of it, is the belief that the people
 collectively best govern themselves and best represent their interests especially as
