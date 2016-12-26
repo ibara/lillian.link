@@ -186,18 +186,18 @@ and connections for various members. Those cooperatives genuinely empowered and 
 some marginalized people. The cooperatives even received some noteriety, I even talked about Hypatia Software Organization
 at LibrePlanet 2016 and Slime Mom at Transh4ck #ibuild4. The cooperatives consistently raised a good amount of
 money for operations. Meeting minutes were always recorded, and by a variety of people, and that those documents
-were made accessible to all members; meeting roles were held by many different people. The anarchist law was adhered to
-by its members.
+were made accessible to all members.
 
-I really love the process of consensus, as it allowed for a natural and real dialog, where concerns are more likely to be
-raised and addressed, but also that we are wiser as a group, that we could take the best of every member in each proposal
-was wonderful. Holding meetings which were mostly open discussion often seemed the most rewarding, a sentiment I noticed
-reflected by its members. Many proposals were started by members, and built upon by the membership. Blocks, and a system of
-validating blocks or limiting them, were used plentifully and seem to be a good system to have in place for more formal
-environments. Also, people seemed to like the "Empath" role, which is a person that actively seeks out to speak on behalf of
-anonymous voices, to defend the interests of the shy or otherwise unable to fight for themselves, during meetings. I think
-that's crucial in avoiding peer pressure/status quo situations. The Consensus Oriented Decision Model (CODM) was a pivotal read for me,
-and greatly assisted meeting efforts going forth.
+I'd often take an observer role in meetings to see how smoothly they'd run without me.
+Everyone did a wonderful job adhering to the rules and carrying out the meetings, even
+instructing others on the rules. People were speaking their minds and those voices were
+incorporated into the cooperative's decisions.
+
+I really love the process of consensus, because it's a decision process that feels like a natural and real dialog.
+Concerns are more likely to be raised and addressed. Also, we're wiser as a group and a diverse set of perspectives
+is invaluable. Holding meetings which were mostly open discussion seemed most rewarding to everyone. It was important
+to have an "empath" role, a person to relay concerns of those who are unable to (for any reason) address the meeting
+participants directly. It's important to put extra care into a delicate system of blocking consensus.
 
 Also, the anarchist cooperative model has resonated with so many marginalized people in a unique way I did not initially expect. I strongly
 believe there's something important in this field yet to be explored and discovered, as it is so woefully under-researched.
@@ -209,3 +209,5 @@ https://en.wikipedia.org/wiki/Polytely
 https://en.wikipedia.org/wiki/Organizational_studies
 
 https://en.wikipedia.org/wiki/Teamwork
+
+https://en.wikipedia.org/wiki/Consensus_decision-making
