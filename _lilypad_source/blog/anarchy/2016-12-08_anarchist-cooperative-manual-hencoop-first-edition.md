@@ -1,5 +1,9 @@
 # Cooperatives using Anarchist Law for Generative Justice
 
+## Abstract/Summary
+
+wabafet
+
 ## Foreword
 
 Marginalized people are finding empowerment in communities that share ownership of an
@@ -117,15 +121,20 @@ updated with any such developments.
 
 ## Challenges
 
-I messed up many things in the past with cooperatives; I've reserved this section for the
-problems I've encountered, personal failings or otherwise. Perhaps my largest failings were:
-not realizing my shortcomings (taking on too much responsibility), ineffective
-delegation of tasks, not taking things slow and steady (moving too fast), ineffectively
-distributing power and ownership including that feeling of power and ownership, changing
-the system of participation too rapidly (often without consent of members, as we
-experimented, effectively making participation impossible and diminishing member ownership). Oh,
-another thing is, just making sure I set an example by adhering to the established bylaws, to a tee,
-something I have not always been good at.
+I've made many mistakes with cooperatives and this section elaborates on them, the general hurdles
+anarchist cooperatives face. Among the biggest is not utilizing community input as often as possible
+and not realizing my own limitations. By consulting the community you make things easier on yourself,
+tasks become more accomplishable, contributors feel a sense of ownership, information is diffused,
+and the results are better. You'll be surprised what people will take off your hands. Be sure to
+act as a shining example of a good member. Explicitly adhere to the rules, don't cut corners, take
+things slowly.
+
+Make sure members are never surprised about changes within the cooperative. Again, take it slow and steady,
+make sure all members have a chance to participate and revise, revise, revise! For example, even if all
+members participating in a meeting decide to make drastic changes, try to avoid implementing them suddenly
+and without further discussion, otherwise members can feel lost or left out. There should be steps taken to
+ensure big changes are made slowly, that people given plentiful chance to offer their input, and that plans
+are announced routinely to the membership with due notice.
 
 A consistent failure I've seen and made was an unpreparedness and thus inability to handle interpersonal
 conflict. Without a robust system for mediating such incidents, conflict has high potential to tear the
