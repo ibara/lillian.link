@@ -1,13 +1,16 @@
-# Cooperatives using Anarchist Law for Generative Justice
+# Worker Collectives for Generative Justice
 
 ## Abstract/Summary
 
-wabafet
+Consensus-based worker collectives empower marginalized people by offering absolute co-ownership of
+an organization...
 
 ## Foreword
 
-Marginalized people are finding empowerment in communities that share ownership of an
-organization. ["Generative Justice"](https://generativejustice.wikispaces.com/) can crudely
+Marginalized people are finding empowerment by forming communities which share ownership of an
+organization. <SOURCE?>
+
+["Generative Justice"](https://generativejustice.wikispaces.com/) can crudely
 be defined as a member-owned cooperative formed to empower its marginalized members. Here's
 a definition of Generative Justice from the [Generative Justice Wiki](https://generativejustice.wikispaces.com/):
 
@@ -34,6 +37,26 @@ This article and the Anarchist Cooperative Manual provided herein hopes to offer
 beneficial, explicit, and nuanced instruction on implementing consensus-based anarchist
 cooperatives for the purpose of empowering marginalized people.
 
+An organizational model which is both governed and owned by its members is an anarchy. That
+is, I choose to interpret anarchy as participation of the people composing government authority,
+explicitly in omission of reprentatives. Thus, every member has equal control (governance) and
+property (revenue, assets, etc.), together making decisions as "the cooperative," a strict set
+of bylaws preventing any particular member from arbitrarily deciding on behalf of the membership as
+a whole. Anarchy has a history of being utilized by marginalized peoples, e.g, anarcha-feminism,
+as most agreeably explained here:
+
+<blockquote>
+Anarcha-feminism [...] combines anarchism with feminism.
+It generally views patriarchy as a manifestation of involuntary coercive hierarchy, that should
+be replaced by decentralized free association. Anarcha-feminists believe that the struggle against
+patriarchy is an essential part of class conflict and the anarchist struggle against the state.
+In essence, the philosophy sees anarchist struggle as a necessary component of feminist struggle
+and vice versa. L. Susan Brown claims that, "as anarchism is a political philosophy that opposes
+all relationships of power, it is inherently feminist."
+
+<cite>— <a href="https://en.wikipedia.org/wiki/Anarcha-feminism">Anarcha-feminism, Wikipedia</a></cite>
+</blockquote>
+
 Anarchy, at least the way I find useful thinking of it, is the belief that the people
 collectively best govern themselves and best represent their interests especially as
 a group. To quote Peter Kropotkin:
@@ -55,53 +78,43 @@ contrary, are doomed to decay.
 <cite>— Peter Kropotkin, Mutual Aid: A Factor of Evolution (1902), Conclusion.</cite>
 </blockquote>
 
-My interpretation of the above quote is that cooperation not only allows self-mending of
-the group, but it propells them forward by this behavior, and that such is foundational in
-our species' success.
+As there is an evolutionary advantage to cooperation for a species, in its stability and
+prosperity of its members, I believe the same advantages are yielded when the "mutual aid"
+model is applied to business. In fact, such a business model has existed for a long time,
+collectives are a specific form of cooperative.
 
-An organizational model which is both governed and owned by its members is an anarchy. That
-is, I choose to interpret anarchy as participation of the people composing government authority,
-explicitly in omission of reprentatives. Thus, every member has equal control (governance) and
-property (revenue, assets, etc.), together making decisions as "the cooperative," a strict set
-of bylaws preventing any particular member from arbitrarily deciding on behalf of the membership as
-a whole. Anarchy has a history of being utilized by marginalized peoples, e.g, anarcha-feminism,
-as most agreeably explained here:
-
-<blockquote>
-Anarcha-feminism [...] combines anarchism with feminism.
-It generally views patriarchy as a manifestation of involuntary coercive hierarchy, that should
-be replaced by decentralized free association. Anarcha-feminists believe that the struggle against
-patriarchy is an essential part of class conflict and the anarchist struggle against the state.
-In essence, the philosophy sees anarchist struggle as a necessary component of feminist struggle
-and vice versa. L. Susan Brown claims that, "as anarchism is a political philosophy that opposes
-all relationships of power, it is inherently feminist."
-
-<cite>— <a href="https://en.wikipedia.org/wiki/Anarcha-feminism">Anarcha-feminism, Wikipedia</a></cite>
-</blockquote>
-
+I believe the decision-making process which most reflects the aformenentioned in an anarchy is
+Consensus.
 Consensus is when proposals are both built and officiated by the participation of all participants.
 In contrast, unanimity is where proposals are consented to without block or voted unanimously, but
 the proposal is *not* constructed by all participants. Consensus can be a ground-up approach of
 crowdsourcing strategy and planning, but also leaves rooms for formalized proposals to be elaborated
 on by all participants.
 
-[Wikipedia's article on Women in Cooperatives](https://en.wikipedia.org/wiki/Women_in_cooperatives) is plentiful
-with great information:
+However, consensus and anarchy are nothing new to business, "worker collectives" are an established
+business model that have been using both consensus and anarchy for years. "Collectives" typically
+differ from "cooperatives" in that collectives explicitly lack heirarchy.
+[cultivate.coop](http://cultivate.coop) explains the difference between a collective (a subset of
+cooperative) and traditional cooperative models:
 
 <blockquote>
-(A cooperative is) an autonomous association of persons who voluntarily cooperate for their mutual, social, economic,
-and cultural benefit through a mutually owned and democratically run enterprise.
+In cooperatives with hierarchical management structures, every member is also an owner (or every worker,
+in the case of worker cooperatives).  The Board of Directors is comprised of and elected by members, but
+is empowered to make governance decisions on their behalf.  Where there are managers (who are often either
+elected or hired and supervised by the Board) are empowered to make operational (management) decisions. 
+However, many worker cooperatives (especially the experience in the UK) do not have managers.
 
-[...]
-
-Cooperatives are based on values like self-help, democracy, equality, equity, and solidarity. These values,
-among other aspects of cooperatives, are particularly useful in empowering women through membership.
-
-Cooperatives allow women who might have been isolated and working individually to band together and create
-economies of scale as well as increase their own bargaining power in the market.
-
-<cite>—<a href="https://en.wikipedia.org/wiki/Cooperative#Women_in_cooperatives">Wikipedia, Women in Cooperatives</a></cite>
+Collectives tend to strive to abolish hierarchy.  This means that all collective members are equally empowered
+to participate directly in the governance and management of the organization.  Some roles and decisions may be
+delegated, but all members are equal co-managers.  Because all members are equally responsible for the success
+or failure of the organization, there is often a rigorous intake process before a newcomer is approved as a
+full collective member.  
 </blockquote>
+
+... Unfortunately, I haven't found a lot of information about "worker collectives" specifically, but there's
+plenty information on "worker cooperatives." Nonetheless, there's a really good set of example bylaws for
+a worker collective created by a paragraph of authors,
+["Sample Bylaws for a Worker Cooperative."](http://institute.coop/sites/default/files/SampleWorkerCooperativeBylaws.pdf)
 
 However, a model of governance alone is insufficient, you must also have good goals and people who
 believe in them! Crowdsource those believers for delicate planning, insight to cement member protections
@@ -181,14 +194,16 @@ anarchist cooperatives, so even if you wanted to go in prepared, much is left to
 
 ## Triumphs
 
-In my experience, I'm proud to say that the cooperatives I've founded have established invaluable friendships
-and connections for various members. Those cooperatives genuinely empowered and were of great help to
-some marginalized people. The cooperatives even received some noteriety, I even talked about Hypatia Software Organization
-at LibrePlanet 2016 and Slime Mom at Transh4ck #ibuild4. The cooperatives consistently raised a good amount of
-money for operations. Meeting minutes were always recorded, and by a variety of people, and that those documents
-were made accessible to all members.
+I'm proud to say that the cooperatives I've founded have established invaluable friendships
+and connections for various members, including myself. Those cooperatives genuinely empowered and were of great help to
+some marginalized people. The cooperatives even received noteriety, [I talked about Hypatia Software Organization
+at LibrePlanet 2016](https://www.youtube.com/watch?v=W3HswEh4vhM) and [Slime Mom at Transh4ck #ibuild4](https://twitter.com/HackLoft/status/807010355910156288).
+The cooperatives consistently raised a good amount of money for operations, through Patreon, FundClub, PayPal donations, etc.
+Meeting minutes were always recorded, and by a variety of people, and that those documents
+were made accessible to all members. Now that I'm done bragging about my babies I'll move on to some
+more reprodicible tips.
 
-I'd often take an observer role in meetings to see how smoothly they'd run without me.
+I often took an observer role in meetings to see how smoothly they'd run without me.
 Everyone did a wonderful job adhering to the rules and carrying out the meetings, even
 instructing others on the rules. People were speaking their minds and those voices were
 incorporated into the cooperative's decisions.
@@ -211,3 +226,11 @@ https://en.wikipedia.org/wiki/Organizational_studies
 https://en.wikipedia.org/wiki/Teamwork
 
 https://en.wikipedia.org/wiki/Consensus_decision-making
+
+### Worker Cooperatives
+
+http://cultivate.coop/wiki/Worker_Cooperatives
+
+https://en.wikipedia.org/wiki/Worker_cooperative
+
+http://cultivate.coop/wiki/Differences_Between_Worker_Cooperatives_and_Collectives#Decision_Making
