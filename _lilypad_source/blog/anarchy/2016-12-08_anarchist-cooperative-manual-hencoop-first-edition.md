@@ -3,10 +3,11 @@
 ## Abstract/Summary
 
 Consensus-based worker collectives have demonstrated real potential to empower
-marginalized people by offering veritable co-ownership of an organization. This
-article outlines the concepts which compose a worker collective, contains my
-experiences and advice, and provides three separate implementations of worker
-collective operations (bylaws).
+marginalized people by offering veritable co-ownership of an organization.
+There is a lack of resources regarding worker collectives, thus I have compiled
+a collection of tangential sources and my own anecdotes. This article outlines the
+concepts which compose a worker collective, contains my experiences and advice,
+and provides three separate implementations of worker collective operations (bylaws).
 
 ## Foreword
 
