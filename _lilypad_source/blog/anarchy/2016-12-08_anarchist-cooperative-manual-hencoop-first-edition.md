@@ -186,6 +186,8 @@ A lack of goals, starting a group without a concrete mission and set of goals cr
 of directionlessness, to call back to what I said earlier: your organization's health is its goals and
 the supporters who believe in them.
 
+Onboarding is very difficult, it is crucial, without a powerful onboarding experience power/ownership may never
+leave your hands.
 Onboarding is the foundation of generativity, generativity the foundation of any anarchical cooperative.
 Without generativity an anarchy ceases to be, it is important that operation information is diffused, else
 delapetaded power structures will emerge. Generativity is defined by Wikipedia:
