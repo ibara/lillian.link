@@ -186,6 +186,36 @@ A lack of goals, starting a group without a concrete mission and set of goals cr
 of directionlessness, to call back to what I said earlier: your organization's health is its goals and
 the supporters who believe in them.
 
+Onboarding is the foundation of generativity, generativity the foundation of any anarchical cooperative.
+Without generativity an anarchy ceases to be, it is important that operation information is diffused, else
+delapetaded power structures will emerge. Generativity is defined by Wikipedia:
+
+<blockquote>
+Generativity in essence describes a self-contained system from which its user draws an independent ability to
+create, generate, or produce new content unique to that system without additional help or input from the system's
+original creators.
+
+<cite>—<a href="https://en.wikipedia.org/wiki/Generativity">"Generativity," Wikipedia</a></cite>
+</blockquote>
+
+[Chronus' article, "Employee Onboarding Program Strategies"](http://chronus.com/employee-onboarding-program-guide)
+breaks down onboarding as a long term learning experience, which must be routinely evaluated. There are short-term
+"transactional" onboarding features, such as technology setup, incident reporting, and other immediate information. Then
+there are the "relational" onboarding features, such as long term learning (especially with mentoring), exploring a member's
+relevance to the cooperative, in-house networking, and more. Chronus defines "relational onboarding" as:
+
+<blockquote>
+This type of learning is not something that happens in a day, a week, or even a month. It’s something that happens in small
+chunks, over time.
+
+<cite>—<a href="http://chronus.com/employee-onboarding-program-guide">Chronus' article, "Employee Onboarding Program Strategie"s</a></cite>
+</blockquote>
+
+Offer chances to learn in small bits over time. Provide chances to be mentored for on-the-job learning over an extended
+period, such as mentoring members on participating in member meetings.
+Of course, in a worker collective some workers dont' want to learn about operations, depending on your
+cooperative that can be okay! Just make sure that a path to understanding operations is accessible to every member.
+
 A lack of accountability/responsibility of actions decided as a membership was another crucial flaw. Things were
 decided upon, but there was no action done to execute it; it is crucial that all planning be met with equal accountability.
 
@@ -233,6 +263,10 @@ the membership. For example, you may not want IT concerns to constantly bubble u
 create an empowered IT committee to officiate procedure and bylaws concerning that body of work, accompanied by routine
 reports to the membership, by which all actions are repealable by the membership.
 
+Comment boxes are a great way of voicing anonymous concerns, especially if those comments are presented during member
+meetings, for example, giving everyone the link to the comment form responses (Google Forms is great!). Make sure everyone
+has access to it!
+
 When a communities' cohesion is strong enough, aid arrives naturally; I've personally seen members buy laptops and other
 necessities for the less financially fortunate members. Nonetheless, I strongly believe in providing at least one great benefits
 program consisting of a percentage of cooperative revenue, such as an emergency HRT medication coverage.
@@ -247,3 +281,4 @@ so woefully under-researched.
   * https://en.wikipedia.org/wiki/Organizational_studies
   * https://en.wikipedia.org/wiki/Consensus_decision-making
   * http://cultivate.coop/wiki/Worker_Cooperatives
+  * https://www.academia.edu/3092538/Engineering_Selves_Hiring_Into_a_Contested_Field_of_Education
