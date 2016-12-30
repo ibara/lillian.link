@@ -2,13 +2,13 @@
 
 ## Abstract/Summary
 
-Consensus-based worker collectives empower marginalized people by offering absolute co-ownership of
-an organization...
+Consensus-based worker collectives have demonstrated real potential to empower
+marginalized people by offering veritable co-ownership of an organization. This
+article outlines the concepts which compose a worker collective, contains my
+experiences and advice, and provides three separate implementations of worker
+collective operations (bylaws).
 
 ## Foreword
-
-Marginalized people are finding empowerment by forming communities which share ownership of an
-organization. <SOURCE?>
 
 ["Generative Justice"](https://generativejustice.wikispaces.com/) can crudely
 be defined as a member-owned cooperative formed to empower its marginalized members. Here's
@@ -22,10 +22,10 @@ of communities of value generation to nurture self-sustaining paths for its circ
 <cite>—<a href="https://generativejustice.wikispaces.com/">Generative Justice Wiki</a></cite>
 </blockquote>
 
-Generative Justice is a large umbrella covering many organizational models, with this
-article I hope to impart my experiences with anarchist cooperatives in particular. I also submit
-my proposal for an anarchist cooperative model for generative justice, based on aforesaid
-"experiences."
+Generative Justice is a concept compliant with many organizational models. With this
+article I hope to impart my experiences with anarchist cooperatives ("worker collectives")
+in particular. I also submit my proposal for an anarchist cooperative model for generative
+justice, based on aforesaid "experiences."
 
 As a model for marginalized peoples' self-empowerment, consensus-based anarchist
 cooperatives put both organizational ownership and governance in the hands of those
@@ -33,7 +33,7 @@ marginalized peoples. Ultimately, consensus-based anarchist cooperatives allow e
 incorporate their voice into all decisions while receiving just compensation and property,
 which marginalized people are often cheated out of, or restricted from.
 
-This article and the Anarchist Cooperative Manual provided herein hopes to offer both
+This article and the Worker Collective Manual provided herein hopes to offer both
 beneficial, explicit, and nuanced instruction on implementing consensus-based anarchist
 cooperatives for the purpose of empowering marginalized people.
 
@@ -57,9 +57,11 @@ all relationships of power, it is inherently feminist."
 <cite>— <a href="https://en.wikipedia.org/wiki/Anarcha-feminism">Anarcha-feminism, Wikipedia</a></cite>
 </blockquote>
 
-Anarchy, at least the way I find useful thinking of it, is the belief that the people
-collectively best govern themselves and best represent their interests especially as
-a group. To quote Peter Kropotkin:
+What I find best to take from anarchy is the belief that the people, collectively as a group,
+best govern themselves. That is to say, representation removes political power from the group,
+where representatives increasingly disparage workers' interests. A law created and maintained by
+the people. This is contrary to the Westernized democratic fear that the people must be protected
+from themselves, i.e., "mob rule," or "the tyranny of the majority." To quote Peter Kropotkin:
 
 <blockquote>
 In the animal world we have seen that the vast majority of species live in societies,
@@ -80,16 +82,16 @@ contrary, are doomed to decay.
 
 As there is an evolutionary advantage to cooperation for a species, in its stability and
 prosperity of its members, I believe the same advantages are yielded when the "mutual aid"
-model is applied to business. In fact, such a business model has existed for a long time,
-collectives are a specific form of cooperative.
+model is applied to business. In fact, such a business models have existed for a long time,
+whereby _collectives_ are a specific form of _cooperative_. I believe the operations process
+which best reflects these advantages are consensus-based anarchist models.
 
-I believe the decision-making process which most reflects the aformenentioned in an anarchy is
-Consensus.
-Consensus is when proposals are both built and officiated by the participation of all participants.
-In contrast, unanimity is where proposals are consented to without block or voted unanimously, but
-the proposal is *not* constructed by all participants. Consensus can be a ground-up approach of
-crowdsourcing strategy and planning, but also leaves rooms for formalized proposals to be elaborated
-on by all participants.
+Consensus is when proposals are both constructed and approved by all participants of a discussion.
+In contrast, unanimity is when everyone _agrees_ to a proposal, an agreement met via consent (without
+block) or by vote. However, unanimity, like any other method besides consensus, fails to incorporate
+the construction of the proposal by all participants. Consensus can be a ground-up approach of
+crowdsourcing all efforts accompanies by maximal information diffusal, while leaving room for formal
+proposals to be elaborated upon by such a process.
 
 However, consensus and anarchy are nothing new to business, "worker collectives" are an established
 business model that have been using both consensus and anarchy for years. "Collectives" typically
@@ -121,16 +123,30 @@ believe in them! Crowdsource those believers for delicate planning, insight to c
 and benefits, to establish calculated checks and balances. In general the goals and their believers should
 be the organization's guiding star.
 
-## The Anarchist Cooperative Manual (First Edition)
+## The Worker Collective Manual
 
-The Anarchist Cooperative Manual is available in two formats:
+I created the "Worker Collective Manual" hoping it serves as an easy-to-understand
+example of worker collective operations. Its purpose is to provide a means of experimenting
+with an cooperative model (i.e., a worker collective), prior to establishing legally with
+_actual_ bylaws. "Worker Collective Manual" is based upon
+["Sample Bylaws for a Worker Cooperative,"](http://institute.coop/sites/default/files/SampleWorkerCooperativeBylaws.pdf)
+which was prepared by the Green Collar Communities Clinic (GC3) of the East Bay Community Law
+Center (EBCLC) and by the Sustainable Economies Law Center (SELC) based on Bylaws
+created by Tim Huet of Arizmendi Association of Cooperatives and adapted by Jenny
+Kassan of K2 Law Group.
+
+The "Worker Collective Manual" contains
+specific references to [the Hen Coop cooperative](http://hencoop.org), as it is a proposal for
+said cooperative. The manual will (hopefully) be reviewed and collaborated on during a meeting on January
+7, 2017.
+
+**Here it is, the Worker Collective Manual**: [Hen Coop's Informal Bylaws](https://docs.google.com/document/d/135TKE0kNR5kHmWpyZEKo8RlN4rh_3ib-jeCGdKqjLmk/edit?usp=sharing).
+
+As a bonus, here's an earlier version I wrote, entitled "The Anarchist Cooperative Manual,"
+which is a concept for larger worker collectives, available in two formats:
 
   * [Anarchist Cooperative Manual (??? Edition on Google Docs)](https://docs.google.com/document/d/1c4MC0se1ZEo7U-sVYCyS9JDbQLPJ9dJsIa-pMwZgSxY/edit?usp=sharing)
   * [Anarchist Cooperative Manual (First Edition) PDF download](anarchist-cooperative-manual-first-ed.pdf)
-
-I created the first edition for [Hen Coop](http://hencoop.org), where hopefully soon it'll undergo discussion at
-a town-hall-type meeting. Community input will be crucial in the development of this manual, I will keep this blog
-updated with any such developments.
 
 ## Challenges
 
@@ -149,18 +165,14 @@ and without further discussion, otherwise members can feel lost or left out. The
 ensure big changes are made slowly, that people given plentiful chance to offer their input, and that plans
 are announced routinely to the membership with due notice.
 
-A consistent failure I've seen and made was an unpreparedness and thus inability to handle interpersonal
-conflict. Without a robust system for mediating such incidents, conflict has high potential to tear the
-cooperative apart. It is unrealistic to imagine the personal and official to be separate realms, for
-in reality they intermingle and one completely affects the other.
-Members are the synecdoche of operations, of the
-cooperative at large, and as such it is a mutual relationship between emotion and official business.
-To put it differently, the members are representative of the cooperative as a whole, and that the cooperative
-itself is representative of its members; the way you operate as a group is a bidirectional relationship. For
-example, you may find group activities that involve members interacting one-on-one (as
-with a chess club) are effective providers of group cohesion, or that success as a
-cooperative imparts a comradery among its members, who own that success, "We did this." Humans are humans,
-and humans need very special care and handling, it's important that the cooperative reflects this.
+The biggest consistent failure I've made has been an unpreparedness handling interpersonal conflict. The
+relationships between each member is the fabric of the collective. Conflict has the probable potential to
+destroy the cooperative in an instant. Thus, incident reporting and handling becomes crucial. There must
+be official, discrete channels for reporting and resolving interpersonal issues. Resolutions must be decided,
+documented, and signed off by at least one accountable member entrusted to do so. Filling an incident report
+must be an action highly accessible to all members. On the lighter side of interpersonal member relationships,
+there are proactive measures which can be taken, one-on-one activities like chess (chess club), or group activities
+like celebrations of the membership's accomplishments (as a whole).
 
 There's an inherent power or authority in any organization, as Jo Freeman explains in "The
 Tyranny of Structurelessness," and that it is important to make those powers accountable and transparent.
@@ -214,23 +226,23 @@ is invaluable. Holding meetings which were mostly open discussion seemed most re
 to have an "empath" role, a person to relay concerns of those who are unable to (for any reason) address the meeting
 participants directly. It's important to put extra care into a delicate system of blocking consensus.
 
-Also, the anarchist cooperative model has resonated with so many marginalized people in a unique way I did not initially expect. I strongly
-believe there's something important in this field yet to be explored and discovered, as it is so woefully under-researched.
+Responsibilities are distributed by means of those who are willing to be held accountable to membership meetings. This
+proccess can be automated by allowing member meetings to enact _empowered committees_ which are held accountable by
+the membership. For example, you may not want IT concerns to constantly bubble up in member meetings, thus you could
+create an empowered IT committee to officiate procedure and bylaws concerning that body of work, accompanied by routine
+reports to the membership, by which all actions are repealable by the membership.
+
+When a communities' cohesion is strong enough, aid arrives naturally; I've personally seen members buy laptops and other
+necessities for the less financially fortunate members. Nonetheless, I strongly believe in providing at least one great benefits
+program consisting of a percentage of cooperative revenue, such as an emergency HRT medication coverage.
+
+Also, the anarchist cooperative model has resonated with so many marginalized people in a unique way I did not initially
+expect. I strongly believe there's something important in this field yet to be explored and discovered, as it is
+so woefully under-researched.
 
 ## Good Reads
 
-https://en.wikipedia.org/wiki/Polytely
-
-https://en.wikipedia.org/wiki/Organizational_studies
-
-https://en.wikipedia.org/wiki/Teamwork
-
-https://en.wikipedia.org/wiki/Consensus_decision-making
-
-### Worker Cooperatives
-
-http://cultivate.coop/wiki/Worker_Cooperatives
-
-https://en.wikipedia.org/wiki/Worker_cooperative
-
-http://cultivate.coop/wiki/Differences_Between_Worker_Cooperatives_and_Collectives#Decision_Making
+  * https://en.wikipedia.org/wiki/Polytely
+  * https://en.wikipedia.org/wiki/Organizational_studies
+  * https://en.wikipedia.org/wiki/Consensus_decision-making
+  * http://cultivate.coop/wiki/Worker_Cooperatives
