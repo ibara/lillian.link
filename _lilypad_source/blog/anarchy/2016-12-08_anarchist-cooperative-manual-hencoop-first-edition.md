@@ -58,9 +58,9 @@ all relationships of power, it is inherently feminist."
 </blockquote>
 
 What I find best to take from anarchy is the belief that the people, collectively as a group,
-best govern themselves. That is to say, representation removes political power from the group,
-where representatives increasingly disparage workers' interests. A law created and maintained by
-the people. This is contrary to the Westernized democratic fear that the people must be protected
+best govern themselves, law created and maintained by the people. That is to say, representation
+removes political power from the group, where representatives increasingly disparage workers' interests.
+This is contrary to the Westernized democratic fear that the people must be protected
 from themselves, i.e., "mob rule," or "the tyranny of the majority." To quote Peter Kropotkin:
 
 <blockquote>
