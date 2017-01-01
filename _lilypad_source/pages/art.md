@@ -110,6 +110,10 @@ There's a chat shrine on this very website! [Enter the chat shrine of lillian.li
 
 ### Slimegirl Collection
 
+I saw a slime girl in this pose (sorry I have long forgotten the
+source) and I decided I wanted to do my own version of slime girls
+in this pose.
+
 <p><img src="images/art/slimegirl-collection/slimegirlfirst.png"></p>
 <p><img src="images/art/slimegirl-collection/slimegirlmiddle.png"></p>
 <p><img src="images/art/slimegirl-collection/slimegirlfinale.png"></p>
