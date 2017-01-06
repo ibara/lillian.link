@@ -1,18 +1,28 @@
 # Worker Collectives for Generative Justice
 
+spell check
+particiipation often is ownership
+
 ## Abstract
 
 How do marginalized people self-organize? Generative Justice provides an outline of
-self-empowerment for marginalized members of society, which has "vehicles." _Consensus-based worker
+self-empowerment for marginalized members of society, with many "vehicles." _Consensus-based worker
 collectives_ are one such "vehicle" for Generative Justice, providing _unalienable coownership_ of
 an organization.
-However, despite being a seemingly powerful "vehicle" for Generative Justice, worker collectives remain a
-severely under-researched topic.
-This article aims to provide a platform which clarifies
-the terminology and concepts relevant to worker cooperatives, but also to utilize anecdotes, as a founder
-of Hypatia Software Organization, Slime Mom, and Hen Coop, in order to demonstrate how consensus-based
-worker collectives are a feasible, effective model for Generative Justice. I also include specific implementations
-of worker collectives for Generative Justice.
+
+However, despite being one such seemingly powerful vehicle, worker collectives remain mostly unexplored
+as relevant research is practically nonexistent. This article aims to provide a platform which clarifies
+the terminology and concepts relevant to worker cooperatives, but also to demonstrate how consensus-based
+worker collectives are a feasible, effective model for Generative Justice.
+
+
+
+Consensus-based worker collectives have demonstrated real potential to empower
+marginalized people by offering veritable co-ownership of an organization.
+There is a lack of resources regarding worker collectives, thus I have compiled
+a collection of tangential sources and my own anecdotes. This article outlines the
+concepts which compose a worker collective, contains my experiences and advice,
+and provides three separate implementations of worker collective operations (bylaws).
 
 ## Foreword
 
