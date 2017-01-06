@@ -14,7 +14,7 @@ of Hypatia Software Organization, Slime Mom, and Hen Coop, in order to demonstra
 worker collectives are a feasible, effective model for Generative Justice. I also include specific implementations
 of worker collectives for Generative Justice.
 
-## Foreword
+## Disambiguation
 
 ["Generative Justice"](https://generativejustice.wikispaces.com/) can crudely
 be defined as a member-owned cooperative formed to empower its marginalized members. Here's
@@ -46,7 +46,6 @@ Thus, every member has equal control (governance) and
 property (revenue, assets, etc.), whereby the combination is "ownership." The membership makes decisions 
 cooperatively, as governed by their bylaws. Said bylaws enforce compliant behavior of individuals, but it
 also provides checks and balances for decisions made within the organization itself.
-
 Anarchy has a history of being utilized by marginalized peoples, e.g, anarcha-feminism,
 as most agreeably explained here:
 
