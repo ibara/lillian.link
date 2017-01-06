@@ -39,16 +39,15 @@ marginalized peoples. Ultimately, consensus-based anarchist cooperatives allow e
 incorporate their voice into all decisions while receiving just compensation and property,
 which marginalized people are often cheated out of, or restricted from.
 
-This article and the Worker Collective Manual provided herein hopes to offer both
-beneficial, explicit, and nuanced instruction on implementing consensus-based anarchist
-cooperatives for the purpose of empowering marginalized people.
+An organizational model which is governed by its members is an anarchy. That
+is, anarchy is when the members of the organization cooperate through official means
+to make authoritative decisions, in explicit omission of representatives.
+Thus, every member has equal control (governance) and
+property (revenue, assets, etc.), whereby the combination is "ownership." The membership makes decisions 
+cooperatively, as governed by their bylaws. Said bylaws enforce compliant behavior of individuals, but it
+also provides checks and balances for decisions made within the organization itself.
 
-An organizational model which is both governed and owned by its members is an anarchy. That
-is, I choose to interpret anarchy as participation of the people composing government authority,
-explicitly in omission of reprentatives. Thus, every member has equal control (governance) and
-property (revenue, assets, etc.), together making decisions as "the cooperative," a strict set
-of bylaws preventing any particular member from arbitrarily deciding on behalf of the membership as
-a whole. Anarchy has a history of being utilized by marginalized peoples, e.g, anarcha-feminism,
+Anarchy has a history of being utilized by marginalized peoples, e.g, anarcha-feminism,
 as most agreeably explained here:
 
 <blockquote>
@@ -63,9 +62,9 @@ all relationships of power, it is inherently feminist."
 <cite>— <a href="https://en.wikipedia.org/wiki/Anarcha-feminism">Anarcha-feminism, Wikipedia</a></cite>
 </blockquote>
 
-What I find best to take from anarchy is the belief that the people, collectively as a group,
-best govern themselves, law created and maintained by the people. That is to say, representation
-removes political power from the group, where representatives increasingly disparage workers' interests.
+Anarchy proposes that members, collectively as a membership, are the best authority of that membership.
+That is to say, representation removes political power from the group, where representatives increasingly
+disparage workers' interests.
 This is contrary to the Westernized democratic fear that the people must be protected
 from themselves, i.e., "mob rule," or "the tyranny of the majority." To quote Peter Kropotkin:
 
@@ -86,11 +85,9 @@ contrary, are doomed to decay.
 <cite>— Peter Kropotkin, Mutual Aid: A Factor of Evolution (1902), Conclusion.</cite>
 </blockquote>
 
-As there is an evolutionary advantage to cooperation for a species, in its stability and
-prosperity of its members, I believe the same advantages are yielded when the "mutual aid"
-model is applied to business. In fact, such a business models have existed for a long time,
-whereby _collectives_ are a specific form of _cooperative_. I believe the operations process
-which best reflects these advantages are consensus-based anarchist models.
+As there is an evolutionary advantage to cooperation for a species, in the propsperity of
+its members, I believe that similar advantages are yielded when applied to business, which I
+believe consensus-based anarchy best reflects.
 
 Consensus is when proposals are both constructed and approved by all participants of a discussion.
 In contrast, unanimity is when everyone _agrees_ to a proposal, an agreement met via consent (without
@@ -100,10 +97,10 @@ crowdsourcing all efforts accompanies by maximal information diffusal, while lea
 proposals to be elaborated upon by such a process.
 
 However, consensus and anarchy are nothing new to business, "worker collectives" are an established
-business model that have been using both consensus and anarchy for years. "Collectives" typically
-differ from "cooperatives" in that collectives explicitly lack heirarchy.
-[cultivate.coop](http://cultivate.coop) explains the difference between a collective (a subset of
-cooperative) and traditional cooperative models:
+business model that have been using both consensus and anarchy for years. "Collectives" are a subset of
+"cooperatives," collectives differing from cooperatives in that collectives are a horizontal/flat heirarchy,
+they lack any authority _beyond_ the membership itself.
+[cultivate.coop](http://cultivate.coop) explains the difference between a collective and traditional cooperative models:
 
 <blockquote>
 In cooperatives with hierarchical management structures, every member is also an owner (or every worker,
@@ -119,9 +116,9 @@ or failure of the organization, there is often a rigorous intake process before 
 full collective member.  
 </blockquote>
 
-... Unfortunately, I haven't found a lot of information about "worker collectives" specifically, but there's
+Unfortunately, I haven't found a lot of information about "worker collectives" specifically, but there's
 plenty information on "worker cooperatives." Nonetheless, there's a really good set of example bylaws for
-a worker collective created by a paragraph of authors,
+a worker collective created by a whopping paragraph of authors:
 ["Sample Bylaws for a Worker Cooperative."](http://institute.coop/sites/default/files/SampleWorkerCooperativeBylaws.pdf)
 
 However, a model of governance alone is insufficient, you must also have good goals and people who
