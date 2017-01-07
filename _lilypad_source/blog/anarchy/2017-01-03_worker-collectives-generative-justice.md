@@ -265,9 +265,11 @@ materials (manuals, meeting minutes, calendar, etc.), time management during
 meetings, legally distributing ownership/property/governance, etc. Often it
 boils down to ownership, such as, who ultimately controls the...
 
-  * ... calendar?  ... website/domain/server/etc?  ... documents (as with Google
-  * Docs, etc.)?  ... email and other accounts?  ... money (most complicated of
-  * all!)?
+  * ... calendar?
+  * ... website/domain/server/etc?
+  * ... documents (as with Google Docs, etc.)
+  * ... email and other accounts?  
+  * ... money (most complicated of all!)?
 
 There's also a lot of legal headaches involved with empowering every member as
 equal owners of the cooperative.
