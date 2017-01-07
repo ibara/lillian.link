@@ -163,9 +163,9 @@ Cooperative Manual," which is a concept for larger worker collectives, available
 in two formats:
 
   * [Anarchist Cooperative Manual (??? Edition on Google
-  * Docs)](https://docs.google.com/document/d/1c4MC0se1ZEo7U-sVYCyS9JDbQLPJ9dJsIa-pMwZgSxY/edit?usp=sharing)
+    Docs)](https://docs.google.com/document/d/1c4MC0se1ZEo7U-sVYCyS9JDbQLPJ9dJsIa-pMwZgSxY/edit?usp=sharing)
   * [Anarchist Cooperative Manual (First Edition) PDF
-  * download](anarchist-cooperative-manual-first-ed.pdf)
+    download](anarchist-cooperative-manual-first-ed.pdf)
 
 Adopting a model alone is insufficient for effective Generative Justice; the
 success of your organization boils down to good goals and the people who support
