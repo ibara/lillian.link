@@ -3,7 +3,7 @@
 ## Abstract
 
 How do marginalized people self-organize? Generative Justice provides an outline
-of self-empowerment for marginalized members of society, which has "vehicles."
+of self-empowerment for marginalized members of society, which has many "vehicles."
 _Consensus-based worker collectives_ are one such "vehicle" for Generative
 Justice, providing _unalienable coownership_ of an organization.  However,
 despite being a seemingly powerful "vehicle" for Generative Justice, worker
@@ -19,58 +19,67 @@ collectives for Generative Justice.
 
 ["Generative Justice"](https://generativejustice.wikispaces.com/) can crudely be
 defined as a member-owned cooperative formed to empower its marginalized
-members. Here's a definition of Generative Justice from the [Generative Justice
-Wiki](https://generativejustice.wikispaces.com/):
-
-<blockquote> The universal right to generate unalienated value and directly
+members. More strictly, Generative Justice is "The universal right to generate unalienated value and directly
 participate in its benefits; the rights of value generators to create their own
 conditions of production; and the rights of communities of value generation to
-nurture self-sustaining paths for its circulation.
+nurture self-sustaining paths for its circulation."[^2]
+Generative Justice is a concept compliant with many social/business structures. With
+this article I hope to impart my experiences with anarchist cooperatives structures
+("worker collectives") in particular.
 
-<cite>—<a href="https://generativejustice.wikispaces.com/">Generative Justice
-Wiki</a></cite> </blockquote>
+As a model for Generative Justice, consensus-based anarchist cooperatives put
+both organizational ownership and governance in the hands of those marginalized
+peoples. Ultimately, consensus-based anarchist cooperatives allow every member
+to incorporate their voice into all decisions, while receiving just compensation
+and property, which marginalized people are often cheated out of, or restricted
+from.
 
-Generative Justice is a concept compliant with many organizational models. With
-this article I hope to impart my experiences with anarchist cooperatives
-("worker collectives") in particular. I also submit my proposal for an anarchist
-cooperative model for generative justice, based on aforesaid "experiences."
+An organizational model which is governed by its members is an anarchy; that
+is, anarchy is when the members of the organization cooperate through official
+means to make authoritative decisions, in explicit omission of representatives.[^3]
+Thus, every member has equal control (governance) and property (revenue,
+assets, etc.), whereby the combination of both is "ownership," whereby ownership is
+required for Generative Justice.[^4] The membership makes decisions cooperatively,
+as governed by their bylaws. Said bylaws enforce compliant behavior of
+individuals, but it also provides checks and balances for decisions made within
+the organization itself. Anarchy has a history of being utilized by
+marginalized peoples, as the anarcha-feminism movement has outlined:
+the state enforces classism, especially to marginalized peoples, and removes
+any real recourse from that oppression, however, it is a bi-directional relationship,
+whereby the oppression of marginalized people also serves to enforce state classism.[^1]
+Bakunin furthers the aformentioned point of _the struggle against the state_:
 
-As a model for marginalized peoples' self-empowerment, consensus-based anarchist
-cooperatives put both organizational ownership and governance in the hands of
-those marginalized peoples. Ultimately, consensus-based anarchist cooperatives
-allow every member to incorporate their voice into all decisions while receiving
-just compensation and property, which marginalized people are often cheated out
-of, or restricted from.
+<blockquote>
+The State is government from above downwards of an immense number
+of men, very different from the point of view of the degree of their culture,
+the nature of the countries or localities that they inhabit, the occupation
+they follow, the interests and the aspirations directing them--the State is the
+government of all these by some or other minority; this minority, even if it
+were a thousand times elected by universal suffrage and controlled in its acts
+by popular institutions, unless it were endowed with the omniscience,
+omnipresence and the omnipotence which the theologians attribute to God, it is
+impossible that it could know and foresee the needs, or satisfy with an even
+justice the most legitimate and pressing interests in the world. There will
+always be discontented people because there will always be some who are
+sacrificed.
 
-An organizational model which is governed by its members is an anarchy. That is,
-anarchy is when the members of the organization cooperate through official means
-to make authoritative decisions, in explicit omission of representatives.  Thus,
-every member has equal control (governance) and property (revenue, assets,
-etc.), whereby the combination is "ownership." The membership makes decisions
-cooperatively, as governed by their bylaws. Said bylaws enforce compliant
-behavior of individuals, but it also provides checks and balances for decisions
-made within the organization itself.  Anarchy has a history of being utilized by
-marginalized peoples, e.g, anarcha-feminism, as most agreeably explained here:
+And, in fact, what do we find throughout history? The State has always been the
+patrimony of some privileged class or other; a priestly class, an aristocratic
+class, a bourgeois class, and finally a bureaucratic class, when, all the other
+classes having become exhausted, the State falls or rises, as you will, to the
+condition of a machine; but it is absolutely necessary for the salvation of the
+State that there should be some privileged class or other which is interested
+in its existence.
 
-<blockquote> Anarcha-feminism [...] combines anarchism with feminism.  It
-generally views patriarchy as a manifestation of involuntary coercive hierarchy,
-that should be replaced by decentralized free association. Anarcha-feminists
-believe that the struggle against patriarchy is an essential part of class
-conflict and the anarchist struggle against the state.  In essence, the
-philosophy sees anarchist struggle as a necessary component of feminist struggle
-and vice versa. L. Susan Brown claims that, "as anarchism is a political
-philosophy that opposes all relationships of power, it is inherently feminist."
-
-<cite>— <a
-href="https://en.wikipedia.org/wiki/Anarcha-feminism">Anarcha-feminism,
-Wikipedia</a></cite> </blockquote>
+<cite><a href="https://libcom.org/book/export/html/111">"Marxism, freedom and the state," Mikhail Bakunin</a></cite>
+</blockquote>
 
 Anarchy proposes that members, collectively as a membership, are the best
-authority of that membership.  That is to say, representation removes political
+authority of that membership. That is to say, representation removes political
 power from the group, where representatives increasingly disparage workers'
 interests.  This is contrary to the Westernized democratic fear that the people
 must be protected from themselves, i.e., "mob rule," or "the tyranny of the
-majority." To quote Peter Kropotkin:
+majority."[^5] To quote Peter Kropotkin:
 
 <blockquote> In the animal world we have seen that the vast majority of species
 live in societies, and that they find in association the best arms for the
@@ -93,18 +102,17 @@ As there is an evolutionary advantage to cooperation for a species, in the
 propsperity of its members, I believe that similar advantages are yielded when
 applied to business, which I believe consensus-based anarchy best reflects.
 
-Consensus is when proposals are both constructed and approved by all
-participants of a discussion.  In contrast, unanimity is when everyone _agrees_
-to a proposal, an agreement met via consent (without block) or by vote. However,
-unanimity, like any other method besides consensus, fails to incorporate the
-construction of the proposal by all participants. Consensus can be a ground-up
-approach of crowdsourcing all efforts accompanies by maximal information
-diffusal, while leaving room for formal proposals to be elaborated upon by such
-a process.
+Consensus is a process where participants come to an agreement which is
+composed according to every participants' voice.[^6] In contrast, unanimity is
+where everyone agrees by vote, however, unlike consensus, fails to incorporate
+the construction of the decision by all participants.[^7] Consensus can be a
+ground-up approach of crowdsourcing all efforts, accompanied by maximal
+information diffusal, while leaving room for formal proposals to be elaborated
+upon by such a process.
 
 However, consensus and anarchy are nothing new to business, "worker collectives"
 are an established business model that have been using both consensus and
-anarchy for years. "Collectives" are a subset of "cooperatives," collectives
+anarchy for years.[^8] "Collectives" are a subset of "cooperatives," collectives
 differing from cooperatives in that collectives are a horizontal/flat heirarchy,
 they lack any authority _beyond_ the membership itself.
 [cultivate.coop](http://cultivate.coop) explains the difference between a
@@ -128,15 +136,12 @@ process before a newcomer is approved as a full collective member.
 
 Unfortunately, I haven't found a lot of information about "worker collectives"
 specifically, but there's plenty information on "worker cooperatives."
-Nonetheless, there's a really good set of example bylaws for a worker collective
-created by a whopping paragraph of authors: ["Sample Bylaws for a Worker
-Cooperative."](http://institute.coop/sites/default/files/SampleWorkerCooperativeBylaws.pdf)
 
-However, a model of governance alone is insufficient, you must also have good
-goals and people who believe in them! Crowdsource those believers for delicate
-planning, insight to cement member protections and benefits, to establish
-calculated checks and balances. In general the goals and their believers should
-be the organization's guiding star.
+Although, these models alone are insufficient in successful Generative Justice,
+as that boils down to good goals and the people who support them!  Crowdsource
+those believers for delicate planning and insight, for planning protections and
+benefits, in establishing checks and balances. In general, the goals and values
+of the organization are its guiding star.
 
 ## The Worker Collective Manual
 
@@ -280,7 +285,7 @@ cooperatives genuinely empowered and were of great help to some marginalized
 people. The cooperatives even received noteriety, [I talked about Hypatia
 Software Organization at LibrePlanet
 2016](https://www.youtube.com/watch?v=W3HswEh4vhM) and [Slime Mom at Transh4ck
-#ibuild4](https://twitter.com/HackLoft/status/807010355910156288).  The
+ibuild4](https://twitter.com/HackLoft/status/807010355910156288).  The
 cooperatives consistently raised a good amount of money for operations, through
 Patreon, FundClub, PayPal donations, etc.  Meeting minutes were always recorded,
 and by a variety of people, and that those documents were made accessible to all
@@ -328,8 +333,24 @@ woefully under-researched.
 
 ## Good Reads
 
-  * https://en.wikipedia.org/wiki/Polytely
-  * https://en.wikipedia.org/wiki/Organizational_studies
   * https://en.wikipedia.org/wiki/Consensus_decision-making
   * http://cultivate.coop/wiki/Worker_Cooperatives
-  * https://www.academia.edu/3092538/Engineering_Selves_Hiring_Into_a_Contested_Field_of_Education
+  * http://www.anarchy.no/horizon1.html
+
+## Citations
+
+[^1]: ["Anarcha-feminism," Wikipedia](https://en.wikipedia.org/wiki/Anarcha-feminism),
+Accessed 2017-01-06.
+[^2]: [Generative Justice Wiki Home Page](https://generativejustice.wikispaces.com/),
+Accessed 2017-01-06.
+[^3]: ["Horizontal Organization", International Institute for Organization Research](http://www.anarchy.no/horizon1.html),
+accessed 2017-01-06. ISSN 0800-0220.
+[^4]: [Quantitative Metrics for Generative Justice: Graphing the value of diversity](http://revistas.ucm.es/index.php/TEKN/article/viewFile/52838/50004), Brian Rober Callahan, Charles Hathaway, Mukkai Krishnamoorthy. Accessed 2017-01-06.
+[^5]: ["Against (the concept of) populism," Barry Hindess](https://www.opendemocracy.net/barry-hindess/against-concept-of-populism),
+accessed 2017-01-06.
+[^6]: ["Consensus Decision Making," ACT UP](http://www.actupny.org/documents/CDdocuments/Consensus.html),
+accessed 2017-01-06.
+[^7]: ["Consensus is not Unanimity," Starhawk, adapted from Randy Schutt](http://consensusdecisionmaking.org/Articles/Consensus%20is%20not%20Unanimity.html),
+accessed 2017-01-06.
+[^8]: ["Worker cooperative," Wikipedia](https://en.wikipedia.org/wiki/Worker_cooperative),
+accessed 2017-01-06.
