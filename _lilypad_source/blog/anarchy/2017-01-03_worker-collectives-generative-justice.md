@@ -137,12 +137,6 @@ process before a newcomer is approved as a full collective member.
 Unfortunately, I haven't found a lot of information about "worker collectives"
 specifically, but there's plenty information on "worker cooperatives."
 
-Although, these models alone are insufficient in successful Generative Justice,
-as that boils down to good goals and the people who support them!  Crowdsource
-those believers for delicate planning and insight, for planning protections and
-benefits, in establishing checks and balances. In general, the goals and values
-of the organization are its guiding star.
-
 ## The Worker Collective Manual
 
 I created the "Worker Collective Manual" hoping it serves as an
@@ -172,6 +166,11 @@ in two formats:
   * Docs)](https://docs.google.com/document/d/1c4MC0se1ZEo7U-sVYCyS9JDbQLPJ9dJsIa-pMwZgSxY/edit?usp=sharing)
   * [Anarchist Cooperative Manual (First Edition) PDF
   * download](anarchist-cooperative-manual-first-ed.pdf)
+
+Adopting a model alone is insufficient for effective Generative Justice; the
+success of your organization boils down to good goals and the people who support
+them! Crowdsource those supporters for delicate planning and insight, for
+planning protections and benefits, in establishing checks and balances.
 
 ## Challenges
 
