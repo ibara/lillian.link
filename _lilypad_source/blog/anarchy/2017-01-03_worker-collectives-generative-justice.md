@@ -19,13 +19,13 @@ collectives for Generative Justice.
 
 ["Generative Justice"](https://generativejustice.wikispaces.com/) can crudely be
 defined as a member-owned cooperative formed to empower its marginalized
-members. More strictly, Generative Justice is "The universal right to generate unalienated value and directly
-participate in its benefits; the rights of value generators to create their own
-conditions of production; and the rights of communities of value generation to
-nurture self-sustaining paths for its circulation."[^2]
-Generative Justice is a concept compliant with many social/business structures. With
-this article I hope to impart my experiences with anarchist cooperatives structures
-("worker collectives") in particular.
+members. More strictly, Generative Justice is "The universal right to generate
+unalienated value and directly participate in its benefits; the rights of value
+generators to create their own conditions of production; and the rights of
+communities of value generation to nurture self-sustaining paths for its
+circulation."[^2] Generative Justice is a concept compliant with many
+social/business structures. With this article I hope to impart my experiences
+with anarchist cooperatives structures ("worker collectives") in particular.
 
 As a model for Generative Justice, consensus-based anarchist cooperatives put
 both organizational ownership and governance in the hands of those marginalized
@@ -108,34 +108,22 @@ where everyone agrees by vote, however, unlike consensus, fails to incorporate
 the construction of the decision by all participants.[^7] Consensus can be a
 ground-up approach of crowdsourcing all efforts, accompanied by maximal
 information diffusal, while leaving room for formal proposals to be elaborated
-upon by such a process.
+upon by such a process. Consensus comes in many different forms, for example, the CODM
+(Consensus-Orientented Decision-Making) model, which was developed by
+psychologist Dr. Tim Hartnett, which consists of seven steps: frame the problem,
+open discussion, identify underlying concerns, collaborative option development,
+choosing a direction, synthesizing a final proposal, and finally closure.[^9]
 
 However, consensus and anarchy are nothing new to business, "worker collectives"
 are an established business model that have been using both consensus and
-anarchy for years.[^8] "Collectives" are a subset of "cooperatives," collectives
-differing from cooperatives in that collectives are a horizontal/flat heirarchy,
-they lack any authority _beyond_ the membership itself.
-[cultivate.coop](http://cultivate.coop) explains the difference between a
-collective and traditional cooperative models:
+anarchy for years.[^8] "Collectives" are a subset of "cooperatives," whereby
+cooperatives have a heirarchical system with a board of directors comprised of
+and elected by members, has board-appointed managers, while collectives, on the
+other hand, abolish hierarchy, where each member is equally empowered to
+participate directly in governance, each member are equal co-managers and
+co-owners.[^10]
 
-<blockquote> In cooperatives with hierarchical management structures, every
-member is also an owner (or every worker, in the case of worker cooperatives).
-The Board of Directors is comprised of and elected by members, but is empowered
-to make governance decisions on their behalf.  Where there are managers (who are
-often either elected or hired and supervised by the Board) are empowered to make
-operational (management) decisions.  However, many worker cooperatives
-(especially the experience in the UK) do not have managers.
-
-Collectives tend to strive to abolish hierarchy.  This means that all collective
-members are equally empowered to participate directly in the governance and
-management of the organization.  Some roles and decisions may be delegated, but
-all members are equal co-managers.  Because all members are equally responsible
-for the success or failure of the organization, there is often a rigorous intake
-process before a newcomer is approved as a full collective member.
-</blockquote>
-
-Unfortunately, I haven't found a lot of information about "worker collectives"
-specifically, but there's plenty information on "worker cooperatives."
+Unfortunately, I haven't found a lot of information about "worker collectives."
 
 ## The Worker Collective Manual
 
@@ -204,14 +192,14 @@ member relationships, there are proactive measures which can be taken,
 one-on-one activities like chess (chess club), or group activities like
 celebrations of the membership's accomplishments (as a whole).
 
-There's an inherent power or authority in any organization, as Jo Freeman
-explains in "The Tyranny of Structurelessness," and that it is important to make
-those powers accountable and transparent.  There are many ways in which I failed
-to actually distribute ownership and control, so I often acted as a clandestine
-authority. I also failed to constantly incorporate everyone's input at any and
-every turn, which is so essential to accomplish member ownership and control,
-and for them to recognize their governance and property in the cooperative, even
-if it can be slower at times. It always starts slow, and that's ok.
+There's an inherent power or authority in any organization, it is important to
+make those powers accountable and transparent.[^11]  There are many ways in
+which I failed to actually distribute ownership and control, so I often acted as
+a clandestine authority. I also failed to constantly incorporate everyone's
+input at any and every turn, which is so essential to accomplish member
+ownership and control, and for them to recognize their governance and property
+in the cooperative, even if it can be slower at times. It always starts slow,
+and that's ok.
 
 A lack of goals, starting a group without a concrete mission and set of goals
 creates an indefinite amount of directionlessness, to call back to what I said
@@ -233,27 +221,11 @@ original creators.
 <cite>—<a href="https://en.wikipedia.org/wiki/Generativity">"Generativity,"
 Wikipedia</a></cite> </blockquote>
 
-[Chronus' article, "Employee Onboarding Program
-Strategies"](http://chronus.com/employee-onboarding-program-guide) breaks down
-onboarding as a long term learning experience, which must be routinely
-evaluated. There are short-term "transactional" onboarding features, such as
-technology setup, incident reporting, and other immediate information. Then
-there are the "relational" onboarding features, such as long term learning
-(especially with mentoring), exploring a member's relevance to the cooperative,
-in-house networking, and more. Chronus defines "relational onboarding" as:
-
-<blockquote> This type of learning is not something that happens in a day, a
-week, or even a month. It’s something that happens in small chunks, over time.
-
-<cite>—<a href="http://chronus.com/employee-onboarding-program-guide">Chronus'
-article, "Employee Onboarding Program Strategie"s</a></cite> </blockquote>
-
-Offer chances to learn in small bits over time. Provide chances to be mentored
-for on-the-job learning over an extended period, such as mentoring members on
-participating in member meetings.  Of course, in a worker collective some
-workers dont' want to learn about operations, depending on your cooperative that
-can be okay! Just make sure that a path to understanding operations is
-accessible to every member.
+Onboarding has short term onboarding features, such as technology setup, but
+then there are long term onboarding features, such as long term learning,
+in-house networking, and exploring the member's relevance in the organization;
+offer chances to learn in small bits over time, provide chances to be mentored
+for on-the-job learning over an extended period.[^12]
 
 A lack of accountability/responsibility of actions decided as a membership was
 another crucial flaw. Things were decided upon, but there was no action done to
@@ -355,3 +327,13 @@ accessed 2017-01-06.
 accessed 2017-01-06.
 [^8]: ["Worker cooperative," Wikipedia](https://en.wikipedia.org/wiki/Worker_cooperative),
 accessed 2017-01-06.
+[^9]: ["Consensus-Oriented Decision Making," Tim Hartnett](https://www.regonline.com/custImages/300000/301697/HartnettHandout.pdf),
+accessed 2017-01-07.
+[^10]: ["Difference Between Worker Cooperatives and Collectives,"
+Cultivate.Coop](http://cultivate.coop/wiki/Differences_Between_Worker_Cooperatives_and_Collectives),
+accessed 2017-01-07.
+[^11]: ["The Tyranny of Structurelessness," Jo
+Freeman](http://www.jofreeman.com/joreen/tyranny.htm), accessed 2017-01-07.
+[^12]: ["Employee Onboarding Program
+Strategies," Chronus](http://chronus.com/employee-onboarding-program-guide), accessed
+2017-01-07.
