@@ -1,21 +1,38 @@
+BE SUPER CONSISTENT WITH TERMINOLOGY!
+Is it a worker collective or a cooperative?
+You spend time in the abstract talking about HSO, SM, and HC, yet only mention HSO and SM in passing at the very end, and don't mention HC at all! So either make it more central to your narrative or drop the names from the abstract.
+I don't feel as if cbacs were truly demonstrated to be feasible or effective. You kinda talk around those thing. I think it's more important to make those point really clear.
+
 # Worker Collectives for Generative Justice
 
 ## Abstract
 
 How do marginalized people self-organize? Generative Justice provides an outline
 of self-empowerment for marginalized members of society, which has many "vehicles."
+
+(You don't use the term "vehicle" outside the abstract, either define it and use it in the article or don't use it in the abstract.)
+
 _Consensus-based worker collectives_ are one such "vehicle" for Generative
 Justice, providing _unalienable coownership_ of an organization.  However,
 despite being a seemingly powerful "vehicle" for Generative Justice, worker
 collectives remain a severely under-researched topic.  This article aims to
 provide a platform which clarifies the terminology and concepts relevant to
 worker cooperatives, but also to utilize anecdotes, as a founder of Hypatia
+
+("worker collectives" or "worker cooperatives"? Need to be consistent with terminology.)
+
 Software Organization, Slime Mom, and Hen Coop, in order to demonstrate how
+
+(What are these 3 things? Better to say "as a founder of three consensus-based worker collectives for transgender individuals," or something like that.)
+
 consensus-based worker collectives are a feasible, effective model for
 Generative Justice. I also include specific implementations of worker
 collectives for Generative Justice.
 
+(I wouldo do a "## Introduction" here more fully stating the problem that you see. Why do these worker collectives? What is the historical problems with marginalization that these worker collectives will solve? What are your motivations for writing this article? Don't assume the reader knows anything.)
+
 ## Disambiguation
+(## Background)
 
 ["Generative Justice"](https://generativejustice.wikispaces.com/) can crudely be
 defined as a member-owned cooperative formed to empower its marginalized
@@ -24,7 +41,13 @@ unalienated value and directly participate in its benefits; the rights of value
 generators to create their own conditions of production; and the rights of
 communities of value generation to nurture self-sustaining paths for its
 circulation."[^2] Generative Justice is a concept compliant with many
+
+(See note for citation 2 at bottom.)
+
 social/business structures. With this article I hope to impart my experiences
+
+(Or as we would say, GJ is orthogonal to the overarching means of production in a society.)
+
 with anarchist cooperatives structures ("worker collectives") in particular.
 
 As a model for Generative Justice, consensus-based anarchist cooperatives put
@@ -33,6 +56,8 @@ peoples. Ultimately, consensus-based anarchist cooperatives allow every member
 to incorporate their voice into all decisions, while receiving just compensation
 and property, which marginalized people are often cheated out of, or restricted
 from.
+
+(How will cbacs do this?  How are marginalized people cheated or restricted? Don't assume your audience knows.)
 
 An organizational model which is governed by its members is an anarchy; that
 is, anarchy is when the members of the organization cooperate through official
@@ -45,7 +70,7 @@ individuals, but it also provides checks and balances for decisions made within
 the organization itself. Anarchy has a history of being utilized by
 marginalized peoples, as the anarcha-feminism movement has outlined:
 the state enforces classism, especially to marginalized peoples, and removes
-any real recourse from that oppression, however, it is a bi-directional relationship,
+any real recourse from that oppression. However, it is a bi-directional relationship,
 whereby the oppression of marginalized people also serves to enforce state classism.[^1]
 Bakunin furthers the aformentioned point of _the struggle against the state_:
 
@@ -74,6 +99,9 @@ in its existence.
 <cite><a href="https://libcom.org/book/export/html/111">"Marxism, freedom and the state," Mikhail Bakunin</a></cite>
 </blockquote>
 
+(Page numbers?
+Not a complete citation.)
+
 Anarchy proposes that members, collectively as a membership, are the best
 authority of that membership. That is to say, representation removes political
 power from the group, where representatives increasingly disparage workers'
@@ -97,6 +125,9 @@ unsociable species, on the contrary, are doomed to decay.
 
 <cite>— Peter Kropotkin, Mutual Aid: A Factor of Evolution (1902),
 Conclusion.</cite> </blockquote>
+
+(Page numbers?
+Also not a complete citation.)
 
 As there is an evolutionary advantage to cooperation for a species, in the
 propsperity of its members, I believe that similar advantages are yielded when
@@ -124,11 +155,15 @@ participate directly in governance, each member are equal co-managers and
 co-owners.[^10]
 
 Unfortunately, I haven't found a lot of information about "worker collectives."
+(Remove the above sentence.)
 
 ## The Worker Collective Manual
 
 I created the "Worker Collective Manual" hoping it serves as an
 easy-to-understand example of worker collective operations. Its purpose is to
+
+(Where is the mention of this in the abstract???)
+
 provide a means of experimenting with an cooperative model (i.e., a worker
 collective), prior to establishing legally with _actual_ bylaws. "Worker
 Collective Manual" is based upon ["Sample Bylaws for a Worker
@@ -143,10 +178,12 @@ cooperative](http://hencoop.org), as it is a proposal for said cooperative. The
 manual will (hopefully) be reviewed and collaborated on during a meeting on
 January 7, 2017.
 
+(It's Janunary 8 now, so reflect on the meeting.)
+
 **Here it is, the Worker Collective Manual**: [Hen Coop's Informal
 Bylaws](https://docs.google.com/document/d/135TKE0kNR5kHmWpyZEKo8RlN4rh_3ib-jeCGdKqjLmk/edit?usp=sharing).
 
-As a bonus, here's an earlier version I wrote, entitled "The Anarchist
+As a bonus, here is an earlier version I wrote, entitled "The Anarchist
 Cooperative Manual," which is a concept for larger worker collectives, available
 in two formats:
 
@@ -154,6 +191,8 @@ in two formats:
     Docs)](https://docs.google.com/document/d/1c4MC0se1ZEo7U-sVYCyS9JDbQLPJ9dJsIa-pMwZgSxY/edit?usp=sharing)
   * [Anarchist Cooperative Manual (First Edition) PDF
     download](anarchist-cooperative-manual-first-ed.pdf)
+
+(Why include this earlier one?)
 
 Adopting a model alone is insufficient for effective Generative Justice; the
 success of your organization boils down to good goals and the people who support
@@ -206,7 +245,7 @@ creates an indefinite amount of directionlessness, to call back to what I said
 earlier: your organization's health is its goals and the supporters who believe
 in them.
 
-Onboarding is very difficult, it is crucial, without a powerful onboarding
+Onboarding is very difficult. But it is crucial, for without a powerful onboarding
 experience power/ownership may never leave your hands.  Onboarding is the
 foundation of generativity, generativity the foundation of any anarchical
 cooperative.  Without generativity an anarchy ceases to be, it is important that
@@ -221,8 +260,13 @@ original creators.
 <cite>—<a href="https://en.wikipedia.org/wiki/Generativity">"Generativity,"
 Wikipedia</a></cite> </blockquote>
 
-Onboarding has short term onboarding features, such as technology setup, but
-then there are long term onboarding features, such as long term learning,
+(Find a definition from somewhere else, or cite what Wikipedia cites.)
+
+Onboarding has short-term onboarding features, such as technology setup, but
+
+(Onboarding has short-term onboarding features? Unclear.)
+
+then there are long-term onboarding features, such as long-term learning,
 in-house networking, and exploring the member's relevance in the organization;
 offer chances to learn in small bits over time, provide chances to be mentored
 for on-the-job learning over an extended period.[^12]
@@ -309,6 +353,8 @@ people in a unique way I did not initially expect. I strongly believe there's
 something important in this field yet to be explored and discovered, as it is so
 woefully under-researched.
 
+( ## Conclusions )
+
 ## Good Reads
 
   * https://en.wikipedia.org/wiki/Consensus_decision-making
@@ -321,9 +367,22 @@ woefully under-researched.
 Accessed 2017-01-06.
 [^2]: [Generative Justice Wiki Home Page](https://generativejustice.wikispaces.com/),
 Accessed 2017-01-06.
+
+(Better for citation 2 to use:
+Eglash, Ron. 2016. "An Introduction to Generative Justice." Teknokultura 13(2): 369-404.
+The quote is on page 382.)
+)
+
 [^3]: ["Horizontal Organization", International Institute for Organization Research](http://www.anarchy.no/horizon1.html),
 accessed 2017-01-06. ISSN 0800-0220.
 [^4]: [Quantitative Metrics for Generative Justice: Graphing the value of diversity](http://revistas.ucm.es/index.php/TEKN/article/viewFile/52838/50004), Brian Rober Callahan, Charles Hathaway, Mukkai Krishnamoorthy. Accessed 2017-01-06.
+
+(This is not a good use of my article. Prefer to use the Eglash article, above.
+If you would like to use my article, talk about how scholars have begun to propose quantitative metrics for measuring value generation, metrics which might be useful when talking to other cbacs, corporations, or the government.
+Please cite my article as follows:
+Callahan, Brian Robert, Charles Hathaway, and Mukkai Krishnamoorthy. 2016. "Quantitative Metrics for Generative Justice: Graphing the value of diversity." Teknokultura 13(2): 567-586.
+)
+
 [^5]: ["Against (the concept of) populism," Barry Hindess](https://www.opendemocracy.net/barry-hindess/against-concept-of-populism),
 accessed 2017-01-06.
 [^6]: ["Consensus Decision Making," ACT UP](http://www.actupny.org/documents/CDdocuments/Consensus.html),
