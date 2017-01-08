@@ -231,6 +231,11 @@ A lack of accountability/responsibility of actions decided as a membership was
 another crucial flaw. Things were decided upon, but there was no action done to
 execute it; it is crucial that all planning be met with equal accountability.
 
+The most important aspects of a worker collective are perhaps its decision
+making process, in addition to access and aweareness of that process. No
+approach can be cookie-cuttered for effective Generative Justice. Balancing
+inclusion and timeliness is a struggle in decision making processes.
+
 There are simpler problems with an anarchist cooperative as well, there's a
 difficulty with sharing resources among members, especially members-only
 materials (manuals, meeting minutes, calendar, etc.), time management during
